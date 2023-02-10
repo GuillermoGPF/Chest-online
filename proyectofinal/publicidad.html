@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Archer - Publicidad</title>
+	<meta charset="utf-8">
+
+	<link rel="stylesheet" type="text/css" href="estilopublimax.css">
+	<link rel="stylesheet" type="text/css" href="estilopublimed1.css">
+	<link rel="stylesheet" type="text/css" href="estilopublimed2.css">
+	<link rel="stylesheet" type="text/css" href="estilopublimin.css">
+	<meta name="viewport" content="device-width,initial-scale=1">
+
+	<meta name="description" content="Página con anuncios tipo banners de empresas, corporaciones y anunciantes.">
+
+	<meta name="keywords" content="Archer, archer, Facebook, facebook, Twitter, twitter, Apple, apple, Instagram, instagram, Dropbox, dropbox, Amazon, amazon, HBO, hbo, Netflix, netflix, whatsapp, Whatsapp, Spotify, spotify, ahorro, ahorrar, dinero, ganar, suscripcion, suscribirse, mensual, anual, mes, año, calculadora, leads, anuncios, publicidad, ads, advertisement, monetizar, ahorrarse, como, quiero, tengo, money, cash, win, winner, bill, bills, save, saving, pagina, web, page, marketing, comercio, mercado, centro, comercial, tienda, online, electrónico, digital, ordenador, tecnologia">
+
+	<meta name="author" content="Guillermo Pérez Fuentes"/>
+
+	<meta name="copyright" content="Guillermo Pérez Fuentes"/>
+
+</head>
+<body bgcolor="004080" alink="white" vlink="white">
+
+	<div id="contenedor">
+		<header>
+			<img src="logoleads.png" title="Volver a Leads" alt="Logo Leads">
+			<input type="button" name="sesion" value="Cerrar Sesión" id="boton" 
+			onmouseover="cambioColor1()" onmouseout="cambioColor2()">
+		</header>
+		<nav>
+			<img src="menu2.png" id="boton-menu" onclick="saleMenu()">
+			<label>BÚSQUEDA:</label><input type="search" id="buscar" onkeypress="enter()">			
+			<input type="button" value="Buscar" id="ok" onclick="buscando()">
+		</nav>
+		<div id="menu">
+			<ul id="menu-grande">
+				<li id="cajita1" onmouseover="colorear1()" onmouseout="colorear2()">
+					<a href="index.html" id="menu1" onmouseover="colorear1()" onmouseout="colorear2()">Inicio</a>
+					<img src="casita.png" class="iconos" id="icono1">
+					<img src="casita1.png" class="iconos" id="icono1-1">
+				</li>
+				<li id="cajita2" onmouseover="colorear3()" onmouseout="colorear4()">
+					<a href="calculadora.html" id="menu2" onmouseover="colorear3()" onmouseout="colorear4()">Calculadora</a>
+					<img src="calculadora.png" class="iconos" id="icono2">
+					<img src="calculadora1.png" class="iconos" id="icono2-1">
+				</li>
+				<li id="cajita3" onmouseover="colorear5()" onmouseout="colorear6()">
+					<a href="leads.html" id="menu3" onmouseover="colorear5()" onmouseout="colorear6()">Leads</a>
+					<img src="cesta.png" class="iconos" id="icono3">
+					<img src="cesta1.png" class="iconos" id="icono3-1">
+				</li>
+				<li id="cajita4" onmouseover="colorear7()" onmouseout="colorear8()">
+					<a href="publicidad.html" id="menu4" onmouseover="colorear7()" onmouseout="colorear8()">Publicidad</a>
+					<img src="anuncio.png" class="iconos" id="icono4">
+					<img src="anuncio1.png" class="iconos" id="icono4-1">
+				</li>
+			</ul>
+		</div>
+		<div id="menu-res">
+			<ul id="menu-res1">
+				<li id="cajita1-1" onmouseover="colorearMenuRes1()" onmouseout="colorearMenuRes2()">
+					<a href="index.html" id="menu1-1" onmouseover="colorearMenuRes1()" onmouseout="colorearMenuRes2()">Inicio</a>
+				</li>
+				<li id="cajita2-1" onmouseover="colorearMenuRes3()" onmouseout="colorearMenuRes4()">
+					<a href="calculadora.html" id="menu2-1" onmouseover="colorearMenuRes3()" 
+					onmouseout="colorearMenuRes4()">Calculadora
+					</a>
+				</li>
+				<li id="cajita3-1" onmouseover="colorearMenuRes5()" onmouseout="colorearMenuRes6()">
+					<a href="leads.html" id="menu3-1" onmouseover="colorearMenuRes5()" 
+					onmouseout="colorearMenuRes6()">Leads</a>
+				</li>
+				<li id="cajita4-1" onmouseover="colorearMenuRes7()" onmouseout="colorearMenuRes8()">
+					<a href="publicidad.html" id="menu4-1" onmouseover="colorearMenuRes7()"
+					 onmouseout="colorearMenuRes8()">Publicidad</a>
+				</li>
+			</ul>
+		</div>
+		<article onclick="quitaMenu()">
+			<div id="caja1" class="cajas">
+				<div id="titulo1"><h1>Publicidad tecnología</h1></div>
+				<div id="ads1"></div>
+				<div id="ads2"></div>
+				<div id="ads3"></div>
+				<div id="ads4"></div>
+				<div id="ads5"></div>
+				<div id="ads6"></div>
+				<div id="ads7"></div>
+				<div id="ads8"></div>
+				<div id="ads9"></div>
+				<div id="ads10"></div>
+				<div id="ads11"></div>
+				<div id="ads12"></div>
+			</div>
+			<div id="caja2" class="cajas">
+				<div id="titulo2"><h1>Publicidad comercios</h1></div>
+				<div id="ads1"></div>
+				<div id="ads2"></div>
+				<div id="ads3"></div>
+				<div id="ads4"></div>
+				<div id="ads5"></div>
+				<div id="ads6"></div>
+				<div id="ads7"></div>
+				<div id="ads8"></div>
+				<div id="ads9"></div>
+				<div id="ads10"></div>
+				<div id="ads11"></div>
+				<div id="ads12"></div>
+			</div>
+			<div id="caja3" class="cajas">
+				<div id="titulo3"><h1>Publicidad nacional</h1></div>
+				<div id="ads1"></div>
+				<div id="ads2"></div>
+				<div id="ads3"></div>
+				<div id="ads4"></div>
+				<div id="ads5"></div>
+				<div id="ads6"></div>
+				<div id="ads7"></div>
+				<div id="ads8"></div>
+				<div id="ads9"></div>
+				<div id="ads10"></div>
+				<div id="ads11"></div>
+				<div id="ads12"></div>
+			</div>
+			<div id="caja4" class="cajas">
+				<div id="titulo4"><h1>Publicidad local</h1></div>
+				<div id="ads1"></div>
+				<div id="ads2"></div>
+				<div id="ads3"></div>
+				<div id="ads4"></div>
+				<div id="ads5"></div>
+				<div id="ads6"></div>
+				<div id="ads7"></div>
+				<div id="ads8"></div>
+				<div id="ads9"></div>
+				<div id="ads10"></div>
+				<div id="ads11"></div>
+				<div id="ads12"></div>
+			</div>
+			<div id="botonera">
+				<img src="prev.png" id="antes">
+				<img src="next.png" id="despues">
+			</div>
+		</article>
+	</div>
+
+	<script type="text/javascript" src="dinamico5.js"></script>
+
+</body>
+</html>

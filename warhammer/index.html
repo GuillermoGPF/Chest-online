@@ -1,0 +1,158 @@
+<!DOCTYPE html5>
+<html>
+<head>
+	<title>Proyecto 7 - Carrito de la compra</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+
+	<header>
+		<div id="caja1">
+		<p>Datos personales: </p><br>
+		<form name="formu1">
+		<label class="posicion1">NOMBRE: </label><input type="text" class="posicionar" name="nombre"><br><br><br>
+		<label class="posicion1">APELLIDO 1: </label><input type="text" class="posicionar" name="ape1"><br><br><br>
+		<label class="posicion1">APELLIDO 2: </label><input type="text" class="posicionar" name="ape2"><br><br><br>
+		<label class="posicion1">Nº SOCIO: </label><input type="text" class="posicionar" name="socio">
+		</div>
+		<div id="caja2">
+		<label class="posicion2">EMAIL: </label><input type="text" class="posicionar2" name="email"><br><br><br>
+		<label class="posicion2">TELÉFONO: </label><input type="text" class="posicionar2" name="telef"><br><br><br>
+		<label class="posicion2">USUARIO: </label><input type="text" class="posicionar2" name="user"><br><br><br>
+		<label class="posicion2">CONTRASEÑA: </label><input type="text" class="posicionar2" name="pass">
+		</form>
+		</div>
+	</header>
+	<article><p>Carrito de la compra: </p>
+
+		<table align="center" bgcolor="white">
+			<tr height="100" id="uno">
+				<td width="100"><img src="foto01.jpg"></td>
+				<td width="400">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat.</td>
+				<td width="100"><select id="articulo1">
+									<option value="1">1 Unidad</option>
+									<option value="2">2 Unidades</option>
+									<option value="3">3 Unidades</option>
+								</select>
+								<p id="mensaje1">19.95€</p>
+				</td>
+				<td width="100"><img src="cerrar.png" class="quitar" onclick="quitar1()"></td>
+			</tr>
+			<tr height="100" id="dos">
+				<td width="100"><img src="foto02.jpg"></td>
+				<td width="400">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat.</td>
+				<td width="100"><select id="articulo2">
+									<option value="1">1 Unidad</option>
+									<option value="2">2 Unidades</option>
+									<option value="3">3 Unidades</option>
+								</select>
+								<p id="mensaje2">17.95€</p>
+				</td>
+				<td width="100"><img src="cerrar.png" class="quitar" onclick="quitar2()"></td>
+			</tr>
+			<tr height="100" id="tres">
+				<td width="100"><img src="foto03.jpg"></td>
+				<td width="400">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat.</td>
+				<td width="100"><select id="articulo3">
+									<option value="1">1 Unidad</option>
+									<option value="2">2 Unidades</option>
+									<option value="3">3 Unidades</option>
+								</select>
+								<p id="mensaje3">19.95€</p>
+				</td>
+				<td width="100"><img src="cerrar.png" class="quitar" onclick="quitar3()"></td>
+			</tr>
+			<tr height="100" id="cuatro">
+				<td width="100"><img src="foto04.jpg"></td>
+				<td width="400">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat.</td>
+				<td width="100"><select id="articulo4">
+									<option value="1">1 Unidad</option>
+									<option value="2">2 Unidades</option>
+									<option value="3">3 Unidades</option>
+								</select>
+								<p id="mensaje4">18.95€</p>
+				</td>
+				<td width="100"><img src="cerrar.png" class="quitar" onclick="quitar4()"></td>
+			</tr>
+			<tr height="100" id="cinco">
+				<td width="100"><img src="foto05.jpg"></td>
+				<td width="400">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat.</td>
+				<td width="100"><select id="articulo5">
+									<option value="1">1 Unidad</option>
+									<option value="2">2 Unidades</option>
+									<option value="3">3 Unidades</option>
+								</select>
+								<p id="mensaje5">24.95€</p>
+				</td>
+				<td width="100"><img src="cerrar.png" class="quitar" onclick="quitar5()"></td>
+			</tr>
+		</table>
+
+	</article>
+	<nav>
+		<div id="cont1">
+		<p>Pago y envío: </p>
+		<form name="formu2">
+		<label class="posic1">PROVINCIA DESTINO</label><br>
+			<select class="posic2" name="destino">
+				<option value="madrid">Madrid</option>
+				<option value="peninsula">Península</option>
+				<option value="islas">Islas</option>
+			</select><br><br>
+		<label class="posic1">FORMA DE ENVÍO</label><br>
+			<select class="posic2" name="envio">
+				<option value="seur24">Seur 24h</option>
+				<option value="correos">Correos</option>
+				<option value="seur48">Seur 48h</option>
+			</select><br>
+		</div>	
+		<div id="cont2">
+		<label id="colocar1">EXTRAS: <br>
+		<input type="checkbox" name="peanas">Peanas<br>
+		<input type="checkbox" name="pintadas">Pintadas<br>
+		<input type="checkbox" name="regalo">Para regalo<br></label><br>
+		</div>
+		<div id="cont3">
+		<label id="colocar2">FORMA DE PAGO: <br>
+		<input type="radio" name="descuento" id="radio1">Efectivo<br>
+		<input type="radio" name="descuento" id="radio2">Visa<br>
+		<input type="radio" name="descuento" id="radio3">Paypal<br></label></form>
+		</div>
+	</nav>
+	<footer>
+		<div id="cajon1">
+		<p>Finalizar: </p>
+			<input type="button" value="Calcular" id="calcular">
+		</div>
+		<div id="cajon2">
+			<div id="cajita1">
+			<p>TOTAL: </p><p id="mensajefinal"></p>
+			</div>
+			<div id="cajita2">
+			<input type="button" value="BUY" id="boton">
+			</div>
+		</div>
+	</footer>
+
+	<div id="estimado"></div>
+
+	<script type="text/javascript" src="dinamico.js"></script>
+
+</body>
+</html>

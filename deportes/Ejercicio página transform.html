@@ -1,0 +1,281 @@
+<!DOCTYPE html5>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		
+		#contenedor{
+
+			width: 1300px;
+			height: 1000px;
+			background-color: white;
+			margin: 0 auto;
+
+		}
+
+			#cabeza{
+
+				width: 1300px;
+				height: 200px;
+				background-color: #542583;
+				position: static;
+				display: block;
+				float: left;
+
+			}
+
+				#logo{
+
+					width: 400px;
+					height: 200px;
+					background-image: url(logo1.jpg);
+					background-size: cover;
+					position: static;
+					display: block;
+					float: left;
+					margin-left: 450px;
+				 }
+
+			#menu{
+
+				width: 1300px;
+				height: 150px;
+				background-color: white;
+				position: static;
+				display: block;
+				float: left;
+				border-bottom-style: solid;
+				border-color: black;
+				border-width: 1px;
+
+			}
+
+			#cuerpo{
+
+				width: 1300px;
+				height: 550px;
+				background-color: white;
+				position: static;
+				display: block;
+				float: left;
+
+			}
+
+				#uno{
+
+					width: 350px;
+					height: 300px;
+					background-image: url(gasol.jpg);
+					background-size: cover;
+					position: static;
+					display: block;
+					float: left;
+					margin-left: 70px;
+					margin-top: 80px;
+					transition: background-image 5s;
+					overflow: hidden;
+				}
+
+				#uno:hover{background-image: url(gasol2.jpg);}
+				#uno:hover #primero{transform: translateY(175px);}
+
+					#primero{
+
+						width: 350px;
+						height: 100px;
+						background-color: #542583;
+						opacity: 0.5;
+						transform: translateY(300px);
+						transition: transform 10s;
+					}
+
+				#dos{
+
+					width: 350px;
+					height: 300px;
+					background-image: url(kobe.jpg);
+					background-size: cover;
+					position: static;
+					display: block;
+					float: left;
+					margin-left: 70px;
+					margin-top: 80px;
+					transition: background-image 5s;
+					overflow: hidden;
+				}
+
+				#dos:hover{background-image: url(kobe2.jpg);}
+				#dos:hover #segundo{transform: translateY(175px);}
+
+					#segundo{
+
+						width: 350px;
+						height: 100px;
+						background-color: #542583;
+						opacity: 0.5;
+						transform: translateY(300px);
+						transition: transform 10s;
+					}
+
+				#tres{
+
+					width: 350px;
+					height: 300px;
+					background-image: url(lebron.jpg);
+					background-size: cover;
+					position: static;
+					display: block;
+					float: left;
+					margin-left: 70px;
+					margin-top: 80px;
+					transition: background-image 5s;
+					overflow: hidden;
+				}
+
+				#tres:hover{background-image: url(lebron2.jpg);}
+				#tres:hover #tercero{transform: translateY(175px);}
+
+					#tercero{
+
+						width: 350px;
+						height: 100px;
+						background-color: #542583;
+						opacity: 0.5;
+						transform: translateY(300px);
+						transition: transform 10s;
+					}
+
+				#izquierda{
+
+					width: 50px;
+					height: 50px;
+					background-color: none;
+					position: static;
+					display: block;
+					float: left;
+					margin-top: 50px;
+					margin-left: 220px;
+
+				}
+
+				#centro{
+
+					width: 50px;
+					height: 50px;
+					background-color: none;
+					position: static;
+					display: block;
+					float: left;
+					margin-top: 50px;
+					margin-left: 370px;
+
+				}
+
+				#derecha{
+
+					width: 50px;
+					height: 50px;
+					background-color: none;
+					position: static;
+					display: block;
+					float: left;
+					margin-top: 50px;
+					margin-left: 380px;
+
+				}
+
+
+			#pie{
+
+				width: 1300px;
+				height: 100px;
+				background-color: #542583;
+				position: static;
+				display: block;
+				float: left;
+
+			}
+
+			nav a{width: 100px;
+				height: 80px;
+				background-color: red;
+				text-align: center;
+				margin-top: 30px;
+				margin-bottom: 10px;
+				margin-left: 100px;
+				float: left;
+				transition: transform 1s;
+			}
+
+			nav a:hover{transform: rotate(720deg);}
+
+			footer a{width: 100px;
+				height: 80px;
+				background-color: #542583;
+				text-align: center;
+				margin-top: 20px;
+				margin-bottom: 5px;
+				margin-left: 150px;
+				float: left;
+				font-family: calibri;
+				font-size: 14pt;
+				color: white;
+				text-decoration: none;}
+
+			footer img{margin-left: 150px;
+				margin-top: 30px;}
+
+			div p{font-family: calibri;
+				font-size: 20pt;
+				color: white;
+				text-align: center;
+				padding: 30px;}
+
+			article a{border: solid 1px blue;
+				border-bottom: solid 4px blue;
+				border-right: solid 4px blue;
+				display: block;
+				position: static;
+				float: left;}
+
+	</style>
+</head>
+<body>
+	<div id="contenedor">
+		<header id="cabeza">
+			<section id="logo"></section>
+		</header>
+		<nav id="menu">
+			<a href="#"><img src="chicago.jpg"></a>
+			<a href="#"><img src="boston.jpg"></a>
+			<a href="#"><img src="cleveland.jpg"></a>
+			<a href="#"><img src="spurs.jpg"></a>
+			<a href="#"><img src="knicks.jpg"></a>
+			<a href="#"><img src="miami.jpg"></a>
+		</nav>
+		<article id="cuerpo">
+			<section id="uno">
+				<div id="primero"><p>PAU GASOL</p></div>
+			</section>
+			<section id="dos">
+				<div id="segundo"><p>KOBE BRYANT</p></div>
+			</section>
+			<section id="tres">
+				<div id="tercero"><p>LEBRON JAMES</p></div>
+			</section>
+			<section id="izquierda"><a href="#"><img src="logo carrito.png" width="50" height="50"></a></section>
+			<section id="centro"><a href="#"><img src="logo carrito.png" width="50" height="50"></a></section>
+			<section id="derecha"><a href="#"><img src="logo carrito.png" width="50" height="50"></a></section>
+		</article>
+		<footer id="pie">
+			<a href="">POLITICA DE PRIVACIDAD</a>
+			<a href="">TÉRMINOS Y CONDICIONES</a>
+			<a href="">AVISO LEGAL</a>
+			<a href="">CONTACTO</a>
+			<img src="nba.jpg">
+		</footer>
+	</div>
+
+</body>
+</html>

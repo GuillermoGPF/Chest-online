@@ -1,0 +1,428 @@
+
+/*DOCUMENTO DE ESTILO EXTERNO CSS PARA SUPERMERCADO PARAISO*/
+
+/*CONTENEDOR PRINCIPAL*/
+
+div{width: 1000px;
+height: 1300px;
+background-color: none;
+margin: 0 auto;
+overflow: hidden;}
+
+/*ENCABEZADO DE LA PÁGINA*/
+
+header{width: 1000px;
+height: 150px;
+background-color: #8bb507;
+position: static;
+display: block;
+float: left;}
+
+/*NAVEGADOR DE LA PÁGINA*/
+
+nav{width: 1000px;
+height: 50px;
+background-color: none;
+position: static;
+display: block;
+float: left;}
+
+/*CUERPO DE LA PÁGINA*/
+
+article{width: 1000px;
+height: 1000px;
+background-color: white;
+position: static;
+display: block;
+float: left;}
+
+/*PIE DE LA PÁGINA*/
+
+footer{width: 1000px;
+height: 100px;
+background-color: #fff200;
+position: static;
+display: block;
+float: left;}
+
+
+	/*SECCIONES CON ID DE LOS CONTENEDORES*/
+
+	/*ID ENCABEZADO*/
+
+	#logo{width: 500px;
+		height: 100px;
+		background-image: url(logo.png);
+		margin-left: 250px;
+		margin-top: 25px;
+		position: fixed;
+		float: left;}
+
+	/*ID NAVEGADOR*/
+
+	#menu{width: 100px;
+		height: 50px;
+		display: block;
+		position: static;
+		float: left;
+		background-color: #fff200;}
+
+	#buscar{width: 900px;
+		height: 50px;
+		background-color: #fff200;
+		position: static;
+		display: block;
+		float: left;}
+
+	#caja{width: 200px;
+		height: 300px;
+		background-color: #fff200;
+		display: block;
+		float: left;
+		margin-top: 50px;
+		margin-left: -200px;
+		transition: transform 1s;}
+
+	#menu:hover #caja{transform: translateX(200px);}
+
+	#envio{width: 150px;
+		height: 30px;
+		border: solid 2px black;}
+
+	/*ID CUERPO*/
+
+		/*ID PÁGINA INDEX*/
+
+	#arriba{width: 1000px;
+		height: 500px;
+		background-image: url(fondo.jpg);
+		background-size: cover;
+		display: block;
+		position: static;
+		float: left;}
+
+	#abajo{width: 1000px;
+		height: 500px;
+		background-color: none;
+		display: block;
+		position: static;
+		float: left;}
+
+	#foto1{width: 400px;
+		height: 450px;
+		filter: opacity(50%) brightness(100%);
+		position: static;
+		float: left;
+		display: block;
+		border: double 3px grey;
+		margin-top: 20px;
+		margin-left: 60px;
+		overflow: hidden;}
+
+	#autor{width: 400px;
+			height: 70px;
+			background-color: white;
+			opacity: 0.5;
+			margin-top: 420px;
+			transition: transform 2s;}
+
+	section cite{margin-left: 50px;
+		margin-top: 20px;
+		position: static;
+		float: left;
+		display: block;}
+
+	#foto1:hover #autor{transform: translateY(-150px);}
+
+	#foto2{width: 400px;
+		height: 450px;
+		background-color: white;
+		position: static;
+		float: left;
+		display: block;
+		border: double 3px grey;
+		margin-top: 20px;
+		margin-left: 60px;}
+
+	#encima{width: 1000px;
+		height: 500px;
+		background-color: none;
+		display: block;
+		position: static;
+		float: left;}
+
+		/*ID CONTACTO*/
+
+	#soporte{width: 600px;
+		height: 300px;
+		background-color: none;
+		margin-left: 200px;}
+
+		#uno{width: 300px;
+			height: 150px;
+			background-color: none;
+			display: block;
+			position: static;
+			float: left;}
+
+		#dos{width: 300px;
+			height: 150px;
+			background-color: none;
+			display: block;
+			position: static;
+			float: left;}
+
+		#tres{width: 300px;
+			height: 150px;
+			background-color: none;
+			display: block;
+			position: static;
+			float: left;}
+
+		#cuatro{width: 300px;
+			height: 150px;
+			background-color: none;
+			display: block;
+			position: static;
+			float: left;}
+
+		#uno img , #tres img{margin-top: 25px;
+			margin-left: 100px;}
+
+		#soporte p{font-family: times new roman;
+			font-size: 20pt;
+			color: black;
+			text-align: left;
+			font-weight: bolder;
+			margin-top: 10px;}
+
+		#soporte a{font-family: arial;
+			font-size: 20pt;
+			margin: 0 auto;
+			font-weight: bolder;}
+
+		/*ID FORMULARIO*/
+
+		.circulo{width: 20px;
+			margin-left: 20px;
+			float: left;}
+
+		.box{width: 20px;
+			float: left;
+			margin-left: 10px;}
+
+		#envio{width: 100px;
+			height: 30px;
+			background-color: lightblue;
+			color: black;
+			margin-top: 90px;
+			margin-left: -150px;}
+
+		/*ID PÁGINA COMPRA*/
+
+	.carrito{padding-left: 50px;}
+	#producto{padding-left: 65px;}
+
+		/*ID PÁGINA GALERÍA*/
+
+	#video{width: 640px;
+		height: 360px;
+		background-color: none;
+		margin: 0 auto;}
+
+
+	/*ID PIE*/
+
+	#legal{width: 800px;
+		height: 100px;
+		background-color: #fff200;
+		position: static;
+		display: block;
+		float: left;}
+
+	.guion{position:relative; 
+		top: 35px;
+		color: grey;
+		font-weight: bolder;
+		font-size: 20pt;}
+
+	#redes{width: 200px;
+		height: 100px;
+		background-color: #fff200;
+		position: static;
+		display: block;
+		float: left;}
+
+
+		/*ETIQUETAS GENERALES*/
+
+		/*IMÁGEN DEL NAVEGADOR*/
+		
+		nav img{margin-left: 25px;}
+
+		/*IMÁGEN DEL PIE*/
+
+		footer img{margin-top: 15px;}
+
+		/*TÍTULOS*/
+
+		h1{font-family: Righteous;
+			font-size: 30pt;
+			color: black;
+			text-transform: uppercase;
+			text-align: center;
+			border: double 3px darkred;
+			width: 300px;
+			border-radius: 10px;
+			display: block;
+			margin: 0 auto;
+			margin-top: 20px;}
+
+		h2{font-family: calibri;
+			font-size: 16pt;
+			color: black;
+			position: relative;
+			top: -300px;
+			left: 20px;}
+
+		h3{font-family: Righteous;
+			font-size: 25pt;
+			color: black;
+			text-transform: uppercase;
+			text-align: center;
+			border: double 3px darkred;
+			width: 500px;
+			border-radius: 10px;
+			display: block;
+			margin-left: 250px;
+			margin-top: 20px;}
+
+		h4{font-family: Righteous;
+			font-size: 25pt;
+			color: black;
+			text-transform: uppercase;
+			text-align: center;
+			border: double 3px darkred;
+			width: 700px;
+			border-radius: 10px;
+			display: block;
+			margin-left: 150px;
+			margin-top: 20px;}
+
+		/*PÁRRAFOS*/
+
+		 p{font-family: arial;
+			font-size: 25pt;
+			text-align: center;
+			font-weight: bolder;
+			color: white;
+			padding-top: 20px;
+			position: static;}
+
+		td p{font-family: calibri;
+			font-size: 14pt;
+			text-align: justify;
+			color: black;
+			padding-left: 20px;
+			padding-right: 20px;}
+
+		/*ENLACES*/
+
+		#legal a{width: 100px;
+			height: 30px;
+			background-color: none;
+			font-family: calibri;
+			font-size: 13pt;
+			text-align: center;
+			text-decoration: none;
+			text-transform: uppercase;
+			color: grey;
+			font-weight: bolder;
+			position: relative;
+			margin-right: 3px;
+			margin-left: 3px;
+			top: 35px;}
+
+		/*CITA Y AUTOR*/
+
+		#foto1 img{display: block;
+			position: absolute;}
+
+		q{font-family: arial;
+			font-size: 23pt;
+			font-weight: bolder;
+			position: relative;
+			top: 400px;
+			left: 10px;}
+
+		cite{font-family: arial;
+			font-size: 25pt;
+			font-weight: bolder;
+			color: black;
+			float: left;
+			display: block;
+			position: absolute;
+			top: 20px;
+			left: 50px;}
+
+		/*MENÚ DE NAVEGACIÓN*/
+
+		ul{list-style-type: none;
+			padding-top: 5px;}
+
+		li{margin-top: 10px;}
+
+		li ul{display: none;}
+
+		li:hover ul{display: block;}
+
+		li a{font-family: calibri;
+			font-size: 17pt;
+			text-decoration: none;
+			color: grey;}
+
+		nav input{width: 600px;
+			height: 30px;
+			background-color: rgba(0,0,0,0.2);
+			border: none;
+			border-radius: 10px;
+			margin-top: 10px;}
+
+		/*CONTENIDO*/
+
+		iframe{margin-left: 200px;}
+
+		/*FORMULARIO*/
+
+		fieldset{width: 500px;
+			height: 500px;
+			margin: 0 auto;
+			border: double 5px blue;}
+
+		legend{font-family: calibri;
+			font-size: 18pt;
+			color: black;
+			text-transform: uppercase;
+			text-align: center;}
+
+		label{font-family: times new roman;
+			font-size: 15pt;
+			color: black;
+			font-weight: bolder;
+			margin-top: 30px;
+			width: 100px;
+			float: left;
+			clear: left;}
+
+		article input{width: 250px;
+			height: 20px;
+			background-color: lightgrey;
+			border: none;
+			border-radius: 20px;
+			float: left;
+			margin-top: 30px;}
+
+		fieldset span{float: left;
+			width: 67px;
+			margin-top: 30px;}
+

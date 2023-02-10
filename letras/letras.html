@@ -1,0 +1,243 @@
+<!DOCTYPE html5>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<style type="text/css">
+/*------------------------------------------------------------CSS-----------------------------------------------------*/
+		#contenedor{width: 600px;
+					height: 1000px;
+					background-color: rgba(255,255,255,0.5);
+					margin: 0 auto;
+					margin-top: 40px;
+					border-radius: 20px;
+					border: double 4px white;}
+
+					#letras{width: 600px;
+						height: 100px;
+						background-color: rgba(255,255,255,0);}
+
+					#contenido{width: 600px;
+						height: 300px;
+						background-color: rgba(255,255,255,0);}
+
+						.celda{width: 80px;
+							height: 80px;
+							background-color: darkblue;
+							color: white;
+							float: left; 
+							margin: 20px;
+							font-size: 50pt;
+							text-align: center;}
+
+					#tipo{width: 600px;
+						height: 400px;
+						background-color: rgba(255,255,255,0);
+						display: none;}
+
+						hr{width: 500px;
+							border-style: double 5px white;}
+
+						p{font-family: century gothic;
+							font-size: 15pt;
+							color: white;
+							padding-top: 20px;
+							padding-left: 50px;}
+
+						#cajita{width: 50px;
+						height: 40px;
+						margin-left: 30px;}
+
+						#boton{width: 50px;
+							height: 20px;
+							margin-left: 480px; 
+							margin-top: -50px;}
+
+						#botoncito{display: none;
+							clear: both;
+							width: 50px;
+							height: 20px;
+							margin-left: 480px;
+							margin-top: -50px;}
+
+						#tipo p{clear: left;
+							font-size: 13pt;}
+
+						.color{width:30px;
+							height:30px;
+							float:left;
+							margin:10px;
+							border: solid 1px black;
+							position: relative;
+							left: 250px;}
+
+						.posicion1{text-align: center;}
+						.posicion2{position: relative; left: 210px;}
+						.posicion3{font-family: calibri; 
+									font-size: 12pt; 
+									text-align: center; 
+									position: relative;
+									left: 250px;}
+						#posicionar{position: relative; left: 270px;}
+
+						#fverde{background-color: lightgreen;}
+						#fazul{background-color: lightblue;}
+						#frojo{background-color: red;}
+
+						#tnegro{background-color: black;}
+						#trojo{background-color: red;}
+						#tblanco{background-color: white;}
+
+
+	</style>
+
+<!--------------------------------------------------------HTML------------------------------------------------------->
+
+</head>
+<body bgcolor="#3b83bd">
+
+	<div id="contenedor">
+		<section id="letras">
+			<p class="posicion">ESCOGE EL NÚMERO DE LETRAS: <input type="number" id="cajita"></p>
+			<input type="button" id="boton" value="Enviar">
+		</section><hr>
+		<section id="contenido"></section><input type="button" value="OK" id="botoncito"><hr>
+		<section id="tipo">
+			<p class="posicion1">Escoja color de fondo: </p>
+				<div id="fverde" class="color" onclick="fondo('lightgreen')"></div>
+				<div id="frojo" class="color" onclick="fondo('red')"></div>
+				<div id="fazul" class="color" onclick="fondo('lightblue')"></div>
+			
+			<p class="posicion1">Escoja color de letra: </p>
+				<div id="tnegro" class="color" onclick="texto('black')"></div>
+				<div id="trojo" class="color" onclick="texto('red')"></div>
+				<div id="tblanco" class="color" onclick="texto('white')"></div>
+
+			<p class="posicion1">Escoja la tipografía: <p>
+				<select id="tipograf" class="posicion2">
+					<option value="arial">Arial</option>
+					<option value="comic sans ms">Comic Sans</option>
+					<option value="century gothic">Century gothic</option>
+				</select>
+
+			<p class="posicion1">Escoja el estilo: </p>
+				<input type="checkbox" id="bold" class="posicion2"><span class="posicion3">Negrita</span><br>
+				<input type="checkbox" id="italic" class="posicion2"><span class="posicion3">Cursiva</span><br>
+				<input type="checkbox" id="underline" class="posicion2"><span class="posicion3">Subrayado</span><br>
+			<br><br>
+			<input type="button" value="Cambiar" id="posicionar">
+		</section>
+	</div>
+
+
+<!-- ----------------------------------------------------JAVASCRIPT--------------------------------------------------->
+		<script type="text/javascript">
+
+
+			let pulsa = document.getElementById("boton");
+			pulsa.addEventListener("click" , aparece);
+
+
+			function aparece(){
+			let cajaTexto = document.getElementById("cajita").value;
+			document.getElementById("contenido").innerHTML =" ";
+			
+				for(i = 1; i <= cajaTexto; i++){
+					document.getElementById("contenido").innerHTML += "<div class='celda' id='caja"+i+"' ></div>";
+				}
+			
+				window.addEventListener("keypress" , escribir);
+				x = 1;
+
+				function escribir(){
+					if(x<=cajaTexto){
+					let letra = event.key;
+					document.getElementById("caja"+x).innerHTML = letra;
+					x++;
+					}
+				}
+
+				document.getElementById("botoncito").style.display="block";
+			}
+			
+
+				function sale(){
+
+					document.getElementById("tipo").style.display="block";
+						
+					}		
+
+				let sale1 = document.getElementById("botoncito");
+				sale1.addEventListener("click" , sale);
+
+
+
+
+				function verEstilo(){
+					document.getElementById("estilo").style.display="block";
+				}
+
+					let fondoDiv;
+					let fondoTex;
+					function fondo(f){fondoDiv = f;}
+					function texto(t){fondoTex = t;}
+
+				function cambiaEstilo(){
+
+					let tipografia = document.getElementById("tipograf").value;
+
+					let cajas = document.getElementsByClassName("celda");
+					for (caja of cajas){
+						caja.style.fontFamily = tipografia;
+					}
+
+					if (document.getElementById('bold').checked==true){			
+						for (caja of cajas){
+						caja.style.fontWeight = "bold";
+						}
+					}
+					else if (document.getElementById('bold').checked==false){			
+						for (caja of cajas){
+						caja.style.fontWeight = "normal";
+						}
+					}
+
+					if (document.getElementById('italic').checked==true){			
+						for (caja of cajas){
+						caja.style.fontStyle = "italic";
+						}
+					}
+					else if (document.getElementById('italic').checked==false){			
+						for (caja of cajas){
+						caja.style.fontStyle = "normal";
+						}
+					}
+
+					if (document.getElementById('underline').checked==true){			
+						for (caja of cajas){
+						caja.style.textDecoration = "underline";
+						}
+					}
+					else if (document.getElementById('underline').checked==false){			
+						for (caja of cajas){
+						caja.style.textDecoration = "none";
+						}
+					}
+
+
+
+					for (caja of cajas){
+						caja.style.color = fondoTex;
+						caja.style.backgroundColor = fondoDiv;
+					}
+
+
+				}
+
+				let cambia = document.getElementById("posicionar");
+				cambia.addEventListener("click" , cambiaEstilo);
+
+
+		</script>
+</body>
+</html>

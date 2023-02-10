@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulario</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<script src="dinamic.js"></script>
+</head>
+<body link ="black" vlink="black" bgcolor="lightgrey">
+
+	<div>
+		<header>
+			<section id="logo"></section>
+			<section id="fondo">
+				<section id="texto">Donde quieras...se lo llevamos</section>
+			</section>
+			<section id="caja"><section id="furgo"><img src="autonomo1.png"></section></section>
+		</header>
+		<nav>
+			<section id="menu">
+				<ul>
+					<li><a href="#">Opción 1</a></li>
+					<li><a href="#">Opción 2</a></li>
+					<li><a href="#">Opción 3</a></li>
+					<li><a href="#">Opción 4</a></li>
+					<li><a href="#">Opción 5</a></li>
+					<li><a href="#">Opción 6</a></li>
+					<li><a href="index.html">VOLVER</a></li>
+				</ul>
+			</section>
+		</nav>
+		<article><h1>Formulario de registro</h1>
+			<fieldset>
+			<form name="contacto" id="contact">
+				<label name="nombre">Nombre:</label>
+				<input name="nombre" type="text" class="formu">
+					<br><br>
+				<label name="apellidos">Apellidos:</label>
+				<input name="apellidos" type="text" class="formu">
+					<br><br>
+				<label name="nacimiento">Fecha de nacimiento:</label>
+				<input name="nacimiento" type="date" class="formu">
+					<br><br>
+				<label name="direccion">Dirección:</label>
+				<input name="direccion" type="text" class="formu">
+					<br><br>
+				<label name="correo">Correo electrónico:</label>
+				<input name="correo" type="email" class="formu">
+					<br><br>
+				<label name="telefono">Teléfono de contacto:</label>
+				<input name="telefono" type="tel" class="formu">
+					<br><br>
+				<input type="button" id="boton" value="Obtener datos" onclick="resultado();">
+			</form>
+			</fieldset>	
+		</article>
+		<aside>
+			<section id="arriba">
+				<script type="text/javascript">
+					document.write('<img src="0'+(numero+1)+'.png">');
+				</script>
+			</section>
+			<section id="abajo">
+				<script type="text/javascript">
+					document.write(mensaje);
+				</script>
+			</section>
+		</aside>
+		<footer>
+			<section id="contacto">
+				<p id="telefono"><img src="telefono.gif"><a href="tel:900 200 300">900 200 300</a></p>
+				<p id="correo"><img src="correo.gif"><a href="mailto: info@dp.es">info@dp.es</a></p>
+			</section>
+			<section id="legal"><p>Copyright dp 2020</p>
+				<p><a href="#">Aviso legal</a> ~ <a href="#">Política de privacidad</a></p>
+			</section>
+			<section id="redes">
+				<a href="https://www.instagram.com/accounts/login/?hl=es" target="_blank"><img src="redes.png"></a>
+			</section>
+		</footer>
+	</div>
+
+</body>
+</html>

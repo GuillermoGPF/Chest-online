@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calcular</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<script src="dinamic.js"></script>
+</head>
+<body link ="black" vlink="black" bgcolor="lightgrey">
+
+	<div>
+		<header>
+			<section id="logo"></section>
+			<section id="fondo">
+				<section id="texto">Donde quieras...se lo llevamos</section>
+			</section>
+			<section id="caja"><section id="furgo"><img src="autonomo1.png"></section></section>
+		</header>
+		<nav>
+			<section id="menu">
+				<ul>
+					<li><a href="#">Opción 1</a></li>
+					<li><a href="#">Opción 2</a></li>
+					<li><a href="#">Opción 3</a></li>
+					<li><a href="#">Opción 4</a></li>
+					<li><a href="#">Opción 5</a></li>
+					<li><a href="#">Opción 6</a></li>
+					<li><a href="index.html">VOLVER</a></li>
+				</ul>
+			</section>
+		</nav>
+		<article>
+			<fieldset>
+			<form name="envio" id="send">
+
+				Peso: <input name="peso" class="formu2"><br><br><br>
+				Ancho: <input name="ancho" class="formu2"><br><br><br>
+				Alto: <input name="alto" class="formu2"><br><br><br>
+				Profundo: <input name="profundo" class="formu2"><br><br><br>
+
+				Origen:<br><br>
+				<input type="checkbox" name="oES"> España<br>
+				<input type="checkbox" name="oEU"> Europa<br>
+				<br><br>
+				Destino:<br><br>
+				<input type="checkbox" name="dES"> España<br>
+				<input type="checkbox" name="dEU"> Europa<br>
+				<br><br>
+				Tipo de envío:<br><br>
+				<select name="tipo">
+					<option value="10">10h</option>
+					<option value="24" selected>24h</option>
+					<option value="48">48h</option>
+				</select>
+
+				<br><br>
+				¿Va a querer seguro?<br>
+				<input type="checkbox" name="seguro"> Si, lo quiero.
+
+				<br><br>
+
+				<input type="button"  id="boton2" value="Calcule el coste de su envío" onclick="calcular();">
+
+	</form>
+	</fieldset>
+
+		</article>
+		<aside>
+			<section id="arriba">
+				<script type="text/javascript">
+					document.write('<img src="0'+(numero+1)+'.png">');
+				</script>
+			</section>
+			<section id="abajo">
+				<script type="text/javascript">
+					document.write(mensaje);
+				</script>
+			</section>
+		</aside>
+		<footer>
+			<section id="contacto">
+				<p id="telefono"><img src="telefono.gif"><a href="tel:900 200 300">900 200 300</a></p>
+				<p id="correo"><img src="correo.gif"><a href="mailto: info@dp.es">info@dp.es</a></p>
+			</section>
+			<section id="legal"><p>Copyright dp 2020</p>
+				<p><a href="#">Aviso legal</a> ~ <a href="#">Política de privacidad</a></p>
+			</section>
+			<section id="redes">
+				<a href="https://www.instagram.com/accounts/login/?hl=es" target="_blank"><img src="redes.png"></a>
+			</section>
+		</footer>
+	</div>
+
+</body>
+</html>

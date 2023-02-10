@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Index - Calculadora</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="estilocalcumax.css">
+	<link rel="stylesheet" type="text/css" href="estilocalcu1700.css">
+	<link rel="stylesheet" type="text/css" href="estilocalcu1600.css">
+	<link rel="stylesheet" type="text/css" href="estilocalcu1500.css">
+	<link rel="stylesheet" type="text/css" href="estilocalcu1400.css">
+	<link rel="stylesheet" type="text/css" href="estilocalcu1300.css">
+	<link rel="stylesheet" type="text/css" href="estilocalcu1200.css">
+	<link rel="stylesheet" type="text/css" href="estilocalcu1100.css">
+	<link rel="stylesheet" type="text/css" href="estilocalcu1000.css">
+	<link rel="stylesheet" type="text/css" href="estilocalcu900.css">
+	<link rel="stylesheet" type="text/css" href="estilocalcu800.css">
+	<link rel="stylesheet" type="text/css" href="estilocalcu700.css">
+	<link rel="stylesheet" type="text/css" href="estilocalcu600.css">
+	<link rel="stylesheet" type="text/css" href="estilocalcu500.css">
+
+	<meta name="viewport" content="device-width,initial-scale=1">
+
+	<meta name="description" content="En ésta página calcula tus suscripciones tanto al mes como al año y ahorrate un buen dinero.">
+
+	<meta name="keywords" content="Archer, archer, Facebook, facebook, Twitter, twitter, Apple, apple, Instagram, instagram, Dropbox, dropbox, Amazon, amazon, HBO, hbo, Netflix, netflix, whatsapp, Whatsapp, Spotify, spotify, ahorro, ahorrar, dinero, ganar, suscripcion, suscribirse, mensual, anual, mes, año, calculadora, leads, anuncios, publicidad, ads, advertisement, monetizar, ahorrarse, como, quiero, tengo, money, cash, win, winner, bill, bills, save, saving, pagina, web, page, marketing, comercio, mercado, centro, comercial, tienda, online, electrónico, digital, ordenador, tecnologia">
+
+	<meta name="author" content="Guillermo Pérez Fuentes"/>
+
+	<meta name="copyright" content="Guillermo Pérez Fuentes"/>
+
+</head>
+<body bgcolor="00a2e8" link="white" alink="white" vlink="white">
+
+	<div id="contenedor">
+		<header>
+			<a href=""><img src="logoindex.png" title="Volver a la página principal" alt="Logo Archer"></a>
+			<input type="button" name="sesion" value="Cerrar Sesión" id="boton" 
+			onmouseover="cambioColor1()" onmouseout="cambioColor2()">
+		</header>
+		<nav>
+			<img src="menu2.png" id="boton-menu" onclick="saleMenu()">
+			<label>BÚSQUEDA:</label><input type="search" id="buscar" onkeypress="enter()">			
+			<input type="button" value="Buscar" id="ok" onclick="buscando()">
+		</nav>
+		<div id="menu">
+			<ul id="menu-grande">
+				<li id="cajita1" onmouseover="colorear1()" onmouseout="colorear2()">
+					<a href="index.html" id="menu1" onmouseover="colorear1()" onmouseout="colorear2()">Inicio</a>
+					<img src="casita.png" class="iconos" id="icono1">
+					<img src="casita1.png" class="iconos" id="icono1-1">
+				</li>
+				<li id="cajita2" onmouseover="colorear3()" onmouseout="colorear4()">
+					<a href="calculadora.html" id="menu2" onmouseover="colorear3()" onmouseout="colorear4()">Calculadora</a>
+					<img src="calculadora.png" class="iconos" id="icono2">
+					<img src="calculadora1.png" class="iconos" id="icono2-1">
+				</li>
+				<li id="cajita3" onmouseover="colorear5()" onmouseout="colorear6()">
+					<a href="leads.html" id="menu3" onmouseover="colorear5()" onmouseout="colorear6()">Leads</a>
+					<img src="cesta.png" class="iconos" id="icono3">
+					<img src="cesta1.png" class="iconos" id="icono3-1">
+				</li>
+				<li id="cajita4" onmouseover="colorear7()" onmouseout="colorear8()">
+					<a href="publicidad.html" id="menu4" onmouseover="colorear7()" onmouseout="colorear8()">Publicidad</a>
+					<img src="anuncio.png" class="iconos" id="icono4">
+					<img src="anuncio1.png" class="iconos" id="icono4-1">
+				</li>
+			</ul>
+		</div>
+		<div id="menu-res">
+			<ul id="menu-res1">
+				<li id="cajita1-1" onmouseover="colorearMenuRes1()" onmouseout="colorearMenuRes2()" >
+					<a href="index.html" id="menu1-1" onmouseover="colorearMenuRes1()" 
+					onmouseout="colorearMenuRes2()">Inicio</a>
+				</li>
+				<li id="cajita2-1" onmouseover="colorearMenuRes3()" onmouseout="colorearMenuRes4()">
+					<a href="calculadora.html" id="menu2-1" onmouseover="colorearMenuRes3()" 
+					onmouseout="colorearMenuRes4()">Calculadora
+					</a>
+				</li>
+				<li id="cajita3-1" onmouseover="colorearMenuRes5()" onmouseout="colorearMenuRes6()">
+					<a href="leads.html" id="menu3-1" onmouseover="colorearMenuRes5()" 
+					onmouseout="colorearMenuRes6()">Leads</a>
+				</li>
+				<li id="cajita4-1" onmouseover="colorearMenuRes7()" onmouseout="colorearMenuRes8()">
+					<a href="publicidad.html" id="menu4-1" onmouseover="colorearMenuRes7()" 
+					onmouseout="colorearMenuRes8()">Publicidad</a>
+				</li>
+			</ul>
+		</div>
+		<form name="formu">
+		<article onclick="quitaMenu()">
+
+			
+			
+			<div class="logos" id="drag1" draggable="true" ondragstart="drag(event)" onclick="apareceEquis1()">
+				<p>Facebook<img src="facebookres.png"></p><img src="equis.png"class="equis" id="equis1" 
+				onclick="desaparece1()">
+			</div>
+
+
+			<div class="logos" id="drag2" draggable="true" ondragstart="drag(event)" onclick="apareceEquis2()">
+				<p>Twitter<img src="twitterres.png"></p><img src="equis.png"class="equis" id="equis2" 
+				onclick="desaparece2()">
+			</div>
+
+
+			<div class="logos" id="drag3" draggable="true" ondragstart="drag(event)" onclick="apareceEquis3()">
+				<p>Instagram<img src="instagramres.png"></p><img src="equis.png"class="equis" id="equis3" 
+				onclick="desaparece3()">
+			</div>
+
+
+
+			<div class="logos" id="drag4" draggable="true" ondragstart="drag(event)" onclick="apareceEquis4()">
+				<p>Apple<img src="appleres.png"></p><img src="equis.png"class="equis" id="equis4" 
+				onclick="desaparece4()">
+			</div>
+
+
+
+			<div class="logos" id="drag5" draggable="true" ondragstart="drag(event)" onclick="apareceEquis5()">
+				<p>Dropbox<img src="dropboxres.png"></p><img src="equis.png"class="equis" id="equis5" 
+				onclick="desaparece5()">
+			</div>
+
+
+
+			<div class="logos" id="drag6" draggable="true" ondragstart="drag(event)" onclick="apareceEquis6()">
+				<p>Whatsapp<img src="whatsappres.png"></p><img src="equis.png"class="equis" id="equis6" 
+				onclick="desaparece6()">
+			</div>
+
+
+
+			<div class="logos" id="drag7" draggable="true" ondragstart="drag(event)" onclick="apareceEquis7()">
+				<p>Netflix<img src="netflixres.png"></p><img src="equis.png"class="equis" id="equis7" 
+				onclick="desaparece7()">
+			</div>
+
+
+			
+			<div class="logos" id="drag8" draggable="true" ondragstart="drag(event)" onclick="apareceEquis8()">
+				<p>HBO<img src="hbores.png"></p><img src="equis.png"class="equis" id="equis8" 
+				onclick="desaparece8()">
+			</div>
+
+
+
+			<div class="logos" id="drag9"  draggable="true" ondragstart="drag(event)" onclick="apareceEquis9()">
+				<p>Spotify<img src="spotifyres.png"></p><img src="equis.png"class="equis" id="equis9" 
+				onclick="desaparece9()">
+			</div>
+
+
+
+			<div class="logos" id="drag10" draggable="true" ondragstart="drag(event)" onclick="apareceEquis10()">
+				<p>Amazon<img src="amazonres.png"></p><img src="equis.png"class="equis" id="equis10" 
+				onclick="desaparece10()">
+			</div>
+			</form>
+			<div id="tutorial">
+			<p>Pulsando en las imágenes de los logos, aparecerá una equis para eliminar el logo no deseado. Puedes hacerlo 
+			con todos los que quieras. Si quieres restaurarlos y que aparezcan de nuevo, pulsa en el botón "Restaurar".
+			Para introducir las imágenes en la calculadora, para calcular el precio total, pulsa sobre el "Nombre" de cada
+			una, y arrástrala hacia dentro de la caja que pone "Calcular". Una vez tengas todas las imágenes, que necesites
+			calcular, dentro de la caja, pulsa sobre el botón "Calcular", y te haré un par de preguntas. Con todo eso te 
+			sacaré el resultado final, desglosando ciertos elementos. 
+			Ejemplo: Si pulsas sobre la imágen que se encuentra debajo de la palabra "Facebook", aparece una equis para quitarlo si quieres. Si te has equivocado y quieres volver, pulsa sobre el botón que dice "Restaurar". Para meter el logo dentro de la calculadora, pulsa sobre la palabra "Facebook", en éste caso, y mantén pulsado mientras lo arrastras dentro de la calculadora. PARA SALIR DEL CÁLCULO Y VOLVER A EMPEZAR, POR FAVOR, ACTUALIZA LA PÁGINA.<br>La cantidad de anuncios para introducir en la calculadora cuando te pregunta son:
+			<br>- Al mes de 0 a 10
+			<br>- Al año de 0 a 120
+			<br>Los descuentos que hay que introducir en en la pregunta de los cupones son:
+			<br>- prime: al mes es 1% y al año 25%
+			<br>- aws:	al mes es 2% y al año 30%
+			<br>- dropbox: al mes es 2% y al año 30%
+			<br>- netflix:  al mes son 10€ menos y al año 50€ menos
+			<br>- hbo:  al mes son 9€ menos y al año 60€ menos</p>
+			<img src="equis.png" id="equis-tutor" onclick="saleTutorial()">
+			</div>
+			<input type="button" value="Tutorial" class="botoncal" id="tutor" onclick="entraTutorial()"><br>
+			<input type="reset" value="Restaurar" onclick="restaurar()" class="botoncal" id="reset">
+
+		<div id="calcu1">
+			<div id="cajon1" ondrop="drop(event)" ondragover="allowDrop(event)">
+				<form name="suscripcion">
+					<select name="tipo" onchange="suscripciones()">
+						<option value="mensual">Mensual</option>
+						<option value="anual">Anual</option>
+					</select>
+				</form>
+				<input type="button" value="Calcular" class="botoncal" onclick="calcular()">
+			</div>
+			<div id="cajon2"><p>PRECIO FINAL TOTAL:</p><p id="precio"></p></div>
+		</div>
+		<div id="calcu2">
+			<p id="precio1"></p>
+			<p id="precio2"></p>
+			<p id="desglose"></p>
+		</div>
+		</article>
+
+	</div>
+
+	<script type="text/javascript" src="dinamico3.js"></script>
+
+</body>
+</html>

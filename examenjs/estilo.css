@@ -1,0 +1,280 @@
+body{
+	margin-top: 40px;
+}
+
+input, textarea{
+	background-color: #c3e1f4;
+	width:450px;
+	border-radius: 0px 10px 10px 0px;
+	font-family: tahoma;
+	font-size: 15pt;
+	color:grey;
+	padding-left: 10px;
+}
+
+input{
+	height:40px;
+}
+
+label{
+	font-family: tahoma;
+	font-size: 12pt;
+	font-style: italic;
+	color:grey;	
+}
+
+#botones{
+	text-align: center;
+}
+
+#botones input{
+	width:120px;
+	border-radius: 10px;
+}
+
+#botones input:hover{
+	background-color: orange;
+}
+
+.etiqueta{
+	background-color: #c3e1f4;
+	width:150px;
+	border:solid thin grey	;
+	border-radius:10px 0px 0px 10px;
+	padding-right: 10px;
+}
+
+textarea{
+	height:200px;
+	padding-left: 10px;
+}
+
+table{
+	text-align: right;
+	height: 450px;
+	width:600px;
+	margin-left: 80px;
+}
+
+#contenedor{
+	width:960px;
+	height:1100px;
+	margin:0 auto;
+	overflow: visible;
+}
+
+#cabecera{
+	width:960px;
+	height:100px;
+	background-image: url(imagenes/cabecera.jpg);
+	position:relative;	
+}
+
+	#cabecera a{
+		text-decoration:none;
+		color:white;
+	}
+
+	#cabecera a:hover{
+		text-decoration:underline;
+		color:gold;
+	}
+
+	#home{
+		width:80px;
+		height:90px;
+		position: absolute
+	}
+
+	#menu1,#menu2,#menu3,#menu4{
+		position:absolute;
+		width:150px;
+		height:40px;
+		font-family: tahoma;
+		font-size: 18pt;
+		text-align:center;
+		margin-top: 4px;
+		padding-top:10px;
+	}
+
+	#menu1{
+		left:115px;
+	}
+
+	#menu2{
+		left:330px;
+	}
+
+	#menu3{
+		left:560px;
+	}
+
+	#menu4{
+		left:780px;
+	}
+
+	#lema{
+		position:absolute;
+		width:300px;
+		height:30px;
+		left:80px;
+		top:65px;
+	}
+
+	#social{
+		position:absolute;
+		width:302px;
+		height:30px;
+		left:658px;
+		top:65px;
+	}
+
+	#social1,#social2,#social3,#social4,#social5,#social6,#social7,#social8{filter: grayscale(100%);}
+
+
+
+#contenido{
+	width:960px;
+	height:900px;
+}
+
+
+	#imagen-contenido{
+		width:960px;
+		height:300px;
+		background-image: none;
+		margin-top: 20px;
+		margin-left: -20px;
+	}
+
+	#texto-contenido{
+		width:960px;
+		height:580px;
+		float: left;
+		padding-top: 20px;
+	}
+
+		#cuadro1,#cuadro2,#cuadro3,#cuadro4{
+			width:215px;
+			height:560px;
+			float:left;
+			margin-left: 25px;
+			display:block;
+		}
+
+		#cuadro1b,#cuadro2b,#cuadro3b,#cuadro4b{
+			width:215px;
+			height:560px;
+			float:left;
+			margin-left: 25px;
+			display:none;
+		}
+			#texto-contenido p{
+				font-family: tahoma;
+				font-size:10pt;
+				padding:5px;
+				text-align: justify;
+				margin-top: 5px;
+				padding-top: 0px;
+			}
+
+			#texto-contenido #centrado{
+				text-align: center;
+				font-style: italic;
+				font-size:12pt;
+			}
+
+			#texto-contenido #usabilidad1, #texto-contenido #usabilidad2{
+				text-align: center;
+				margin-top:-5px;
+			}
+
+		#columna1{
+			width:150;
+			height:560px;
+			float:left;
+			margin-left: 20px;
+		}
+
+		#columna2{
+			width:580;
+			height:560px;
+			float:left;
+			margin-left: 20px;
+			overflow: auto;
+		}
+
+		#columna3{
+			width:150;
+			height:560px;
+			float:left;
+			margin-left: 20px;
+		}
+
+		#columnaA{
+			width:150;
+			height:560px;
+			float:left;
+			margin-left: 20px;
+		}
+
+		#columnaB{
+			width:750;
+			height:560px;
+			float:left;
+			margin-left: 20px;
+		}
+
+#pie{
+	width:960px;
+	height:100px;
+	background-color: black;
+	border-radius: 10px 10px 0px 0px;	
+	font-size: 9pt;
+	font-family: tahoma;
+	color:white;
+	float: left;
+
+}
+
+#pie p{
+	padding:5px;
+	text-align: justify;
+}
+
+#pie p a{
+	text-decoration:none;
+	color:gold;
+	}
+
+
+#cookies{width: 960px;
+		height: 180px;
+		background-color: rgba(1,1,1,0.5);
+		position: fixed;
+		display: block;
+		float: left;
+		bottom: 0px;}
+
+		#cookies p{font-family: arial;
+					font-size: 12pt;
+					color: white;
+					text-align: justify;
+					margin-left: 20px;
+					margin-right: 20px;}
+
+		#cookies input{
+			width: 100px;
+			height: 30px;
+			background-color: grey;
+			border: double 4px white;
+			border-radius: 0px;
+			color: white;
+			font-size: 12pt;
+			font-family: arial;
+			font-weight: bolder;
+			position: relative;
+			left: 350px;
+			height: 30px;
+			margin-left: 0px;
+			margin-top: -30px;}

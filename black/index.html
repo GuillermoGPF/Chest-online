@@ -1,0 +1,188 @@
+<!DOCTYPE html5>
+<html>
+<head>
+	<title>Landing Page</title>
+	<meta charset="utf-8">
+
+	<style type="text/css">
+
+
+		
+		/*Landing Page Formato PC*/
+		@media only screen and (min-width: 501px){
+		div{width: 1300px;
+			height: 850px;
+			background-color: none;
+			margin: 0 auto;}
+
+		header{width: 1300px;
+			height: 400px;
+			background-image: url(foto.jpg);}
+
+		article{width: 1300px;
+			height: 450px;
+			background-color: none;}
+
+			.texto{
+
+				width: 650px;
+				height: 450px;
+				background-color: none;
+				float: left;
+			}
+
+			.formulario{
+
+				width: 650px;
+				height: 450px;
+				background-color: none;
+				float: left;
+			}
+
+			h1{font-family: Cooper;
+				font-size: 50pt;
+				font-weight: bolder;
+				text-decoration: underline;
+				text-align: center;
+				border: double 6px red;
+				width: 550px;
+				margin: 0 auto;
+				margin-top: 10px;}
+
+			h2{font-family: Stencil;
+				font-size: 27pt;
+				font-weight: bold;
+				text-align: center;}
+
+			p{font-family: Calibri;
+				font-size: 20pt;
+				font-weight: bold;
+				text-align: justify;
+				padding: 10px;}
+
+			fieldset{border: double 4px darkblue;
+				margin-top: 100px;
+				margin-left: 50px;
+				width: 400px;}
+
+			legend{font-family: arial;
+				font-size: 15px;
+				color: darkblue;}
+
+		}
+
+		/*Landing Page Formato Móvil*/
+		@media only screen and (max-width: 500px){
+
+			div{width: 485px;
+			height: 600px;
+			background-color: none;
+			margin: 0 auto;}
+
+		header{width: 485px;
+			height: 200px;
+			background-image: url(productos.png);
+			float: left;
+			position: static;
+			display: block;}
+
+		article{width: 485px;
+			height: 400px;
+			background-color: none;
+			float: left;
+			position: static;
+			display: block;}
+
+			.texto-movil{
+
+				width: 485px;
+				height: 180px;
+				background-color: none;
+				float: left;
+				position: static;
+				display: block;
+
+			}
+
+			h1{font-family: Cooper;
+				font-size: 14pt;
+				font-weight: bolder;
+				text-decoration: underline;
+				text-align: center;
+				border: double 6px red;
+				width: 450px;
+				margin: 0 auto;
+				margin-top: 10px;}
+
+			h2{font-family: Stencil;
+				font-size: 12pt;
+				font-weight: bold;
+				text-align: center;}
+
+			p{font-family: Calibri;
+				font-size: 10pt;
+				font-weight: bold;
+				text-align: justify;
+				padding: 10px;}
+
+			.form-movil{
+				width: 485px;
+				height: 220px;
+				background-color: none;
+				position: static;
+				display: block;
+				float: left;
+			}
+
+			fieldset{border: double 4px darkblue;
+				margin-top: 5px;
+				margin-left: 30px;
+				width: 400px;}
+
+			legend{font-family: arial;
+				font-size: 10px;
+				color: darkblue;}
+
+			label{font-size: 10pt;}
+
+		}
+
+	</style>
+</head>
+<body>
+
+	<div>
+		<header></header>
+		<article>
+			<section class="texto texto-movil">
+				<h1>BLACK FRIDAY</h1>
+				<h2>NO TE PIERDAS LOS DESCUENTOS DURANTE TODA LA SEMANA</h2>
+				<p>Si quieres recibir información sobre todos los descuentos, rellena el formulario y notificaremos a diario
+				sobre todas nuestras ofertas, no te lo pierdas, sólo hasta el 2 de diciembre, adelántate antes que nadie, te avisamos
+				por teléfono o por correo, lo que tú elijas:</p>
+			</section>
+			<section class="formulario form-movil">
+				<form action="#" method="post" name="formulario">
+					<fieldset>
+						<legend>INGRESA AQUÍ TUS DATOS</legend>
+						<label for="nombre">NOMBRE: </label>
+						<input type="text" name="nombre"><br><br>
+						<label for="apellidos">APELLIDOS: </label>
+						<input type="text" name="apellidos"><br><br>
+						<label for="telefono">TELÉFONO: </label>
+						<input type="tel" name="telefono"><br><br>
+						<label for="correo">CORREO ELECTRÓNICO: </label>
+						<input type="email" name="correo"><br><br>
+						<label for="terminos">He leído los términos y condiciones</label>
+						<input type="checkbox" name="terminos" required="Antes de enviar, acepta nuestros términos">
+						<input type="submit" name="enviar">
+						<input type="reset" name="cancelar">
+
+					</fieldset>
+				</form>
+			</section>
+		</article>
+	</div>
+
+</body>
+</html>

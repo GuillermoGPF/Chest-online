@@ -1,0 +1,133 @@
+
+
+
+
+		header{width: 800px;
+			height: 300px;
+			background-color: #fffddc;
+			margin: 0 auto;
+			margin-top: 30px;
+			border: solid 4px black;}
+
+		article{width: 800px;
+			height: 600;
+			background-color: #fffddc;
+			margin: 0 auto;
+			margin-top: 30px;
+			border: solid 4px black;}
+
+		nav{width: 800px;
+			height: 200px;
+			background-color: #fffddc;
+			margin: 0 auto;
+			margin-top: 30px;
+			border: solid 4px black;}
+
+		footer{width: 800px;
+			height: 100px;
+			background-color: #fffddc;
+			margin: 0 auto;
+			margin-top: 30px;
+			border: solid 4px black;}
+
+		#caja1{width: 400px; 
+			height: 300px; 
+			background-color: none; 
+			display: block; 
+			position: static; 
+			float: left;}
+
+		#caja2{width: 400px; 
+			height: 300px; 
+			background-color: none; 
+			display: block; 
+			position: static; 
+			float: left;}
+
+		p{font-family: arial;
+			font-size: 20pt;
+			margin-top: 8px;
+			margin-left: 8px;}
+
+
+		.posicion1{margin-left: 50px; clear: left; float: left;}
+		.posicion2{margin-left: 50px; clear: left; float: left; position: relative; top: 85px;}
+
+
+		.posicionar{height: 28px;float: right; position: relative; left: -20px;}
+		.posicionar2{height: 28px;float: right; position: relative; left: -20px; top: 85px;}
+
+
+		#cont1{width: 198px; 
+			height: 200px; 
+			background-color: none;
+			position: static;
+			display: block;
+			float: left;
+			border-right: solid 2px black;}
+
+		#cont2{width: 298px; 
+			height: 200px; 
+			background-color: none;
+			position: static;
+			display: block;
+			float: left;
+			border-right: solid 2px black;}
+
+		#cont3{width: 300px; 
+			height: 200px; 
+			background-color: none;
+			position: static;
+			display: block;
+			float: left;}
+
+
+		#colocar1{ position: relative; left: 80px; top: 60px; font-size: 17pt;}
+		#colocar2{ position: relative; left: 80px; top: 60px; font-size: 17pt;}
+		.posic1{margin-left: 20px;}
+		.posic2{margin-left: 80px;}
+
+
+		#cajon1{width: 298px;
+			height: 100px;
+			background-color: none;
+			position: static;
+			display: block;
+			float: left;
+			border-right: solid 2px black;}
+
+		#cajon2{width: 500px;
+			height: 100px;
+			background-color: none;
+			position: static;
+			display: block;
+			float: left;}
+
+		#cajita1{width: 400px; height: 100px; position: static; display: block; float: left;}
+		#cajita2{width: 100px; height: 100px; position: static; display: block; float: left;}
+
+		#calcular{width: 100px;
+			height: 30px;
+			background-color: red;
+			color: white;
+			border: double 2px white;
+			border-radius: 20px;
+			margin-top: -20px; 
+			margin-left: 150px;
+			font-size: 14pt;}
+
+		#boton{width: 80px;
+			height: 80px;
+			background-color: red;
+			color: white;
+			border: solid 8px lightgrey;
+			border-radius: 50px;
+			font-size: 14pt;
+			margin-top: 10px;}
+
+		table{margin-top: -15px;}
+		td{border:solid 2px #fffddc;}
+
+		.quitar{margin-left: 35px;}
+
+		#mensajefinal{margin-left: 100px; font-size: 58px; margin-top: -30px;}

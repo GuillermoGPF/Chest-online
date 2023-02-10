@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Index - Archer</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="estiloindexmax.css">
+	<link rel="stylesheet" type="text/css" href="estiloindex1700.css">
+	<link rel="stylesheet" type="text/css" href="estiloindex1600.css">
+	<link rel="stylesheet" type="text/css" href="estiloindex1500.css">
+	<link rel="stylesheet" type="text/css" href="estiloindex1400.css">
+	<link rel="stylesheet" type="text/css" href="estiloindex1300.css">
+	<link rel="stylesheet" type="text/css" href="estiloindex1200.css">
+	<link rel="stylesheet" type="text/css" href="estiloindex1100.css">
+	<link rel="stylesheet" type="text/css" href="estiloindex1000.css">
+	<link rel="stylesheet" type="text/css" href="estiloindex900.css">
+	<link rel="stylesheet" type="text/css" href="estiloindex800.css">
+	<link rel="stylesheet" type="text/css" href="estiloindex700.css">
+	<link rel="stylesheet" type="text/css" href="estiloindex600.css">
+	<link rel="stylesheet" type="text/css" href="estiloindex500.css">
+
+	<meta name="viewport" content="device-width,initial-scale=1">
+
+	<meta name="description" content="Página principal de tu cuenta en Archer">
+
+	<meta name="keywords" content="Archer, archer, Facebook, facebook, Twitter, twitter, Apple, apple, Instagram, instagram, Dropbox, dropbox, Amazon, amazon, HBO, hbo, Netflix, netflix, whatsapp, Whatsapp, Spotify, spotify, ahorro, ahorrar, dinero, ganar, suscripcion, suscribirse, mensual, anual, mes, año, calculadora, leads, anuncios, publicidad, ads, advertisement, monetizar, ahorrarse, como, quiero, tengo, money, cash, win, winner, bill, bills, save, saving, pagina, web, page, marketing, comercio, mercado, centro, comercial, tienda, online, electrónico, digital, ordenador, tecnologia">
+
+	<meta name="author" content="Guillermo Pérez Fuentes"/>
+
+	<meta name="copyright" content="Guillermo Pérez Fuentes"/>
+
+</head>
+<body bgcolor="00a2e8" link="white" alink="white" vlink="white">
+
+	<div id="contenedor">
+		<header><a href="index.html"><img src="logoindex.png" title="Volver a la página principal" alt="Logo Archer"></a>
+			<input type="button" name="sesion" value="Cerrar Sesión" id="boton" 
+			onmouseover="cambioColor1()" onmouseout="cambioColor2()">
+		</header>
+		<nav>
+			<img src="menu2.png" id="boton-menu" onclick="saleMenu()">
+			<label>BÚSQUEDA:</label><input type="search" id="buscar" onkeypress="enter()">			
+				<input type="button" value="Buscar" id="ok" onclick="buscando()">
+		</nav>
+		<div id="menu">
+			<ul id="menu-grande">
+				<li id="cajita1" onmouseover="colorear1()" onmouseout="colorear2()">
+					<a href="index.html" id="menu1" onmouseover="colorear1()" onmouseout="colorear2()">Inicio</a>
+					<img src="casita.png" class="iconos" id="icono1">
+					<img src="casita1.png" class="iconos" id="icono1-1">
+				</li>
+				<li id="cajita2" onmouseover="colorear3()" onmouseout="colorear4()">
+					<a href="calculadora.html" id="menu2" onmouseover="colorear3()" onmouseout="colorear4()">Calculadora</a>
+					<img src="calculadora.png" class="iconos" id="icono2">
+					<img src="calculadora1.png" class="iconos" id="icono2-1">
+				</li>
+				<li id="cajita3" onmouseover="colorear5()" onmouseout="colorear6()">
+					<a href="leads.html" id="menu3" onmouseover="colorear5()" onmouseout="colorear6()">Leads</a>
+					<img src="cesta.png" class="iconos" id="icono3">
+					<img src="cesta1.png" class="iconos" id="icono3-1">
+				</li>
+				<li id="cajita4" onmouseover="colorear7()" onmouseout="colorear8()">
+					<a href="publicidad.html" id="menu4" onmouseover="colorear7()" onmouseout="colorear8()">Publicidad</a>
+					<img src="anuncio.png" class="iconos" id="icono4">
+					<img src="anuncio1.png" class="iconos" id="icono4-1">
+				</li>
+			</ul>
+		</div>
+		<div id="menu-res">
+			<ul id="menu-res1">
+				<li id="cajita1-1" onmouseover="colorearMenuRes1()" onmouseout="colorearMenuRes2()">
+					<a href="index.html" id="menu1-1" onmouseover="colorearMenuRes1()" onmouseout="colorearMenuRes2()">Inicio</a>
+				</li>
+				<li id="cajita2-1" onmouseover="colorearMenuRes3()" onmouseout="colorearMenuRes4()">
+					<a href="calculadora.html" id="menu2-1" onmouseover="colorearMenuRes3()" 
+					onmouseout="colorearMenuRes4()">Calculadora
+					</a>
+				</li>
+				<li id="cajita3-1" onmouseover="colorearMenuRes5()" onmouseout="colorearMenuRes6()">
+					<a href="leads.html" id="menu3-1" onmouseover="colorearMenuRes5()" 
+					onmouseout="colorearMenuRes6()">Leads</a>
+				</li>
+				<li id="cajita4-1" onmouseover="colorearMenuRes7()" onmouseout="colorearMenuRes8()">
+					<a href="publicidad.html" id="menu4-1" onmouseover="colorearMenuRes7()" 
+					onmouseout="colorearMenuRes8()">Publicidad</a>
+				</li>
+			</ul>
+		</div>
+		
+			<div id="cuadrotexto"><p id="parrafo1">En ésta página, dedicada al contenido digital, suscripción mensual o anual y por vía streaming, tienes todas las aplicaciones y páginas más populares de la red como Facebook, Amazon, Twitter, Netflix o Apple en tu propia cuenta única. No olvides explorar la página para calcular tu precio final, y la página Leads, con su buscador de anuncios, banners y publicidad de todo tipo, sin que te moleste ni sea invasivo, para lo que necesites. Disfruta de tu página, y no olvides compartirla con amigos y familia para llegar a todos. Cuéntales tu buena experiencia con Archer, y recuérdales que pueden ahorrarse mucho dinero con nosotros en sus suscripciones, que puedes elegir que sea mensual o anual. Adelante. Para continuar, haz click en el botón de aquí abajo.
+			</p><input type="button" value="Continuar" id="continuar" onclick="aparecetodo()" onmouseover="cambioColor3()" onmouseout="cambioColor4()"></div>
+
+
+			<div id="cuadrotitulo"><h1 id="titulo">Bienvenido a tu página principal</h1>
+			<input type="button" value="Entrar" id="pincha" onmouseover="cambioColor3()" onmouseout="cambioColor4()"
+			onclick="pinchar()">
+			</div>
+			<article onclick="quitaMenu()">
+
+			<h2 id="titulo2"></h2>
+			<section class="logos" id="logo1"><img src="facebook.png"ondblclick="megusta1()" onclick="quita1()"title="Entrar a Facebook" alt="Logo Facebook" onmousemove="aparece1()" onmouseout="sale1()" class="logotipo">
+				<img src="facebookres.png" class="logosres" ondblclick="megusta1()" onclick="quita1()"
+				 onmousemove="aparece1()" onmouseout="sale1()">
+				<img src="corazon.png" class="corazon" id="heart1" onclick="quita1()">
+				<img src="corazonroto.png" class="corazonroto" id="roto1" onclick="quita1()">
+				<section id="caja1" onmousemove="aparece1()" onmouseout="sale1()" class="cajas" 
+				onclick="registro1()">Facebook</section>
+				<fieldset id="login1" class="login">
+					<p id="empresa1">FACEBOOK</p>
+					<input type="email" id="user1">
+					<input type="password" id="pass1">
+					<input type="button" value="Entrar" class="entrar">
+					<input type="button" value="Cancelar" class="cancelar" onclick="cancelar1()">
+				</fieldset>
+			</section>
+				
+			
+			
+				
+
+
+			<section class="logos" id="logo2"><img src="twitter.png" ondblclick="megusta2()" onclick="quita2()" title="Entrar a Twitter" alt="Logo Twitter"  onmousemove="aparece2()" onmouseout="sale2()" class="logotipo">
+				<img src="twitterres.png" class="logosres" ondblclick="megusta2()" onclick="quita2()" 
+				  onmousemove="aparece2()" onmouseout="sale2()">
+				<img src="corazon.png" class="corazon" id="heart2" onclick="quita2()">
+				<img src="corazonroto.png" class="corazonroto" id="roto2" onclick="quita2()">
+				<section id="caja2" onmousemove="aparece2()" onmouseout="sale2()" class="cajas" 
+				onclick="registro2()">Twitter</section>
+				<fieldset id="login2" class="login">
+					<p id="empresa2">TWITTER</p>
+					<input type="email" id="user1">
+					<input type="password" id="pass1">
+					<input type="button" value="Entrar" class="entrar">
+					<input type="button" value="Cancelar" class="cancelar" onclick="cancelar2()">
+				</fieldset>
+			</section>
+				
+			
+			
+				
+
+
+			<section class="logos" id="logo3"><img src="instagram.png" ondblclick="megusta3()" onclick="quita3()" title="Entrar a Instagram" alt="Logo Instagram" onmousemove="aparece3()" onmouseout="sale3()" class="logotipo">
+				<img src="instagramres.png" class="logosres" ondblclick="megusta3()" onclick="quita3()"
+				 onmousemove="aparece3()" onmouseout="sale3()">
+				<img src="corazon.png" class="corazon" id="heart3" onclick="quita3()">
+				<img src="corazonroto.png" class="corazonroto" id="roto3" onclick="quita3()">
+				<section id="caja3" onmousemove="aparece3()" onmouseout="sale3()" class="cajas" 
+				onclick="registro3()">Instagram</section>
+				<fieldset id="login3" class="login">
+					<p id="empresa3">INSTAGRAM</p>
+					<input type="email" id="user1">
+					<input type="password" id="pass1">
+					<input type="button" value="Entrar" class="entrar">
+					<input type="button" value="Cancelar" class="cancelar" onclick="cancelar3()">
+				</fieldset>
+			</section>
+				
+			
+			
+				
+
+
+			<section class="logos" id="logo4"><img src="apple.png" ondblclick="megusta4()" onclick="quita4()" title="Entrar a Apple" alt="Logo Apple" onmousemove="aparece4()" onmouseout="sale4()" class="logotipo">
+				<img src="appleres.png" class="logosres" ondblclick="megusta4()" onclick="quita4()"
+				 onmousemove="aparece4()" onmouseout="sale4()">
+				<img src="corazon.png" class="corazon" id="heart4" onclick="quita4()">
+				<img src="corazonroto.png" class="corazonroto" id="roto4" onclick="quita4()">
+				<section id="caja4" onmousemove="aparece4()" onmouseout="sale4()" class="cajas" onclick="registro4()">Apple</section>
+				<fieldset id="login4" class="login">
+					<p id="empresa4">APPLE</p>
+					<input type="email" id="user1">
+					<input type="password" id="pass1">
+					<input type="button" value="Entrar" class="entrar">
+					<input type="button" value="Cancelar" class="cancelar" onclick="cancelar4()">
+				</fieldset>
+			</section>
+				
+			
+			
+				
+
+
+			<section class="logos" id="logo5"><img src="dropbox.png" ondblclick="megusta5()" onclick="quita5()" title="Entrar a Dropbox" alt="Logo Dropbox" onmousemove="aparece5()" onmouseout="sale5()" class="logotipo">
+				<img src="dropboxres.png" class="logosres" ondblclick="megusta5()" onclick="quita5()"
+				 onmousemove="aparece5()" onmouseout="sale5()">
+				<img src="corazon.png" class="corazon" id="heart5" onclick="quita5()">
+				<img src="corazonroto.png" class="corazonroto" id="roto5" onclick="quita5()">
+				<section id="caja5" onmousemove="aparece5()" onmouseout="sale5()" class="cajas" 
+				onclick="registro5()">Dropbox</section>
+				<fieldset id="login5" class="login">
+					<p id="empresa5">DROPBOX</p>
+					<input type="email">
+					<input type="password">
+					<input type="button" value="Entrar" class="entrar">
+					<input type="button" value="Cancelar" class="cancelar" onclick="cancelar5()">
+				</fieldset>
+			</section>
+				
+			
+			
+				
+
+
+			<section class="logos" id="logo6"><img src="whatsapp.png" ondblclick="megusta6()" onclick="quita6()" title="Entrar a Whatsapp" alt="Logo Whatsapp" onmousemove="aparece6()" onmouseout="sale6()" class="logotipo">
+				<img src="whatsappres.png" class="logosres" ondblclick="megusta6()" onclick="quita6()"
+				 onmousemove="aparece6()" onmouseout="sale6()">
+				<img src="corazon.png" class="corazon" id="heart6" onclick="quita6()">
+				<img src="corazonroto.png" class="corazonroto" id="roto6" onclick="quita6()">
+				<section id="caja6" onmousemove="aparece6()" onmouseout="sale6()" class="cajas" 
+				onclick="registro6()">Whatsapp</section>
+				<fieldset id="login6" class="login">
+					<p id="empresa6">WHATSAPP</p>
+					<input type="email">
+					<input type="password">
+					<input type="button" value="Entrar" class="entrar">
+					<input type="button" value="Cancelar" class="cancelar" onclick="cancelar6()">
+				</fieldset>
+			</section>
+				
+			
+			
+				
+
+			<section class="logos" id="logo7"><img src="netflix.png" ondblclick="megusta7()" onclick="quita7()" title="Entrar a Netflix" alt="Logo Netflix" onmousemove="aparece7()" onmouseout="sale7()" class="logotipo">
+				<img src="netflixres.png" class="logosres" ondblclick="megusta7()" onclick="quita7()"
+				 onmousemove="aparece7()" onmouseout="sale7()">
+				<img src="corazon.png" class="corazon" id="heart7" onclick="quita7()">
+				<img src="corazonroto.png" class="corazonroto" id="roto7" onclick="quita7()">
+				<section id="caja7" onmousemove="aparece7()" onmouseout="sale7()" class="cajas" 
+				onclick="registro7()">Netflix</section>
+				<fieldset id="login7" class="login">
+					<p id="empresa7">NETFLIX</p>
+					<input type="email">
+					<input type="password">
+					<input type="button" value="Entrar" class="entrar">
+					<input type="button" value="Cancelar" class="cancelar" onclick="cancelar7()">
+				</fieldset>
+			</section>
+				
+			
+			
+				
+
+
+			<section class="logos" id="logo8"><img src="hbo.png" ondblclick="megusta8()" onclick="quita8()" title="Entrar a HBO" alt="Logo HBO" onmousemove="aparece8()" onmouseout="sale8()" class="logotipo">
+				<img src="hbores.png" class="logosres" ondblclick="megusta8()" onclick="quita8()"
+				 onmousemove="aparece8()" onmouseout="sale8()">
+				<img src="corazon.png" class="corazon" id="heart8" onclick="quita8()">
+				<img src="corazonroto.png" class="corazonroto" id="roto8" onclick="quita8()">
+				<section id="caja8" onmousemove="aparece8()" onmouseout="sale8()" class="cajas" onclick="registro8()">HBO</section>
+				<fieldset id="login8" class="login">
+					<p id="empresa8">HBO</p>
+					<input type="email">
+					<input type="password">
+					<input type="button" value="Entrar" class="entrar">
+					<input type="button" value="Cancelar" class="cancelar" onclick="cancelar8()">
+				</fieldset>
+			</section>
+				
+			
+			
+				
+
+
+			<section class="logos" id="logo9"><img src="spotify.png" ondblclick="megusta9()" onclick="quita9()" title="Entrar a Spotify" alt="Logo Spotify" onmousemove="aparece9()" onmouseout="sale9()" class="logotipo">
+				<img src="spotifyres.png" class="logosres" ondblclick="megusta9()" onclick="quita9()"
+				 onmousemove="aparece9()" onmouseout="sale9()">
+				<img src="corazon.png" class="corazon" id="heart9" onclick="quita9()">
+				<img src="corazonroto.png" class="corazonroto" id="roto9" onclick="quita9()">
+				<section id="caja9" onmousemove="aparece9()" onmouseout="sale9()" class="cajas" 
+				onclick="registro9()">Spotify</section>
+				<fieldset id="login9" class="login">
+					<p id="empresa9">SPOTIFY</p>
+					<input type="email">
+					<input type="password">
+					<input type="button" value="Entrar" class="entrar">
+					<input type="button" value="Cancelar" class="cancelar" onclick="cancelar9()">
+				</fieldset>
+			</section>
+				
+			
+			
+				
+
+
+			<section class="logos" id="logo10"><img src="amazon.png" ondblclick="megusta10()" onclick="quita10()" title="Entrar a Amazon" alt="Logo Amazon" onmousemove="aparece10()" onmouseout="sale10()" class="logotipo">
+				<img src="amazonres.png" class="logosres" ondblclick="megusta10()" onclick="quita10()"
+				 onmousemove="aparece10()" onmouseout="sale10()">
+				<img src="corazon.png" class="corazon" id="heart10" onclick="quita10()">
+				<img src="corazonroto.png" class="corazonroto" id="roto10" onclick="quita10()">
+				<section id="caja10" onmousemove="aparece10()" onmouseout="sale10()" class="cajas" 
+				onclick="registro10()">Amazon</section>
+				<fieldset id="login10" class="login">
+					<p id="empresa10">AMAZON</p>
+					<input type="email" id="user10">
+					<input type="password" id="pass10">
+					<input type="button" value="Entrar" class="entrar">
+					<input type="button" value="Cancelar" class="cancelar" onclick="cancelar10()">
+				</fieldset>
+			</section>
+				
+			<div id="tutorial">
+			<p>Pincha en el nombre de cada aplicación para iniciar sesión y dejarla registrada, así podrás acceder con una única cuenta a todas las aplicaciones y páginas en las que te encuentras registrado. Recuerda que con éste registro, el pago de todas las cuentas se te engloba en un único pago, más barato, más rápido, más seguro y mejor. Si das doble click en el logo de cada aplicación, puedes ponerle un corazón en tu página favorita, y con otro doble click, se muestra un corazón roto si no te gusta, o te ha decepcionado en cualquier momento. Cuando necesites salir de tu cuenta, sólo tienes que pinchar en el botón de cerrar sesión para salir, y cuando quieras volver, basta sólo con introducir tu nombre de usuario o correo electrónico y contraseña.</p>
+			<img src="equis.png" id="equis-tutor" onclick="saleTutorial()">
+			</div>
+			<input type="button" value="Tutorial" id="tutor" onclick="entraTutorial()"><br>
+
+		</article>
+	</div>
+
+	<script type="text/javascript" src="dinamico2.js"></script>
+
+</body>
+</html>

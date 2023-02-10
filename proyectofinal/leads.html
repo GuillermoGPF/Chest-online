@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Archer - Leads</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="estiloleadsmax.css">
+	<link rel="stylesheet" type="text/css" href="estiloleads1700.css">
+	<link rel="stylesheet" type="text/css" href="estiloleads1600.css">
+	<link rel="stylesheet" type="text/css" href="estiloleads1500.css">
+	<link rel="stylesheet" type="text/css" href="estiloleads1400.css">
+	<link rel="stylesheet" type="text/css" href="estiloleads1300.css">
+	<link rel="stylesheet" type="text/css" href="estiloleads1200.css">
+	<link rel="stylesheet" type="text/css" href="estiloleads1100.css">
+	<link rel="stylesheet" type="text/css" href="estiloleads1000.css">
+	<link rel="stylesheet" type="text/css" href="estiloleads900.css">
+	<link rel="stylesheet" type="text/css" href="estiloleads800.css">
+	<link rel="stylesheet" type="text/css" href="estiloleads700.css">
+	<link rel="stylesheet" type="text/css" href="estiloleads600.css">
+	<link rel="stylesheet" type="text/css" href="estiloleads500.css">
+
+	<meta name="viewport" content="device-width,initial-scale=1">
+
+	<meta name="description" content="Página de empresas anunciantes para compra de sus productos.">
+
+	<meta name="keywords" content="Archer, archer, Facebook, facebook, Twitter, twitter, Apple, apple, Instagram, instagram, Dropbox, dropbox, Amazon, amazon, HBO, hbo, Netflix, netflix, whatsapp, Whatsapp, Spotify, spotify, ahorro, ahorrar, dinero, ganar, suscripcion, suscribirse, mensual, anual, mes, año, calculadora, leads, anuncios, publicidad, ads, advertisement, monetizar, ahorrarse, como, quiero, tengo, money, cash, win, winner, bill, bills, save, saving, pagina, web, page, marketing, comercio, mercado, centro, comercial, tienda, online, electrónico, digital, ordenador, tecnologia">
+
+	<meta name="author" content="Guillermo Pérez Fuentes"/>
+
+	<meta name="copyright" content="Guillermo Pérez Fuentes"/>
+
+</head>
+<body bgcolor="004080" link="white" alink="white" vlink="white">
+
+	<div id="contenedor">
+		<header>
+			<img src="logoleads.png" title="Volver a Leads" alt="Logo Leads">
+			<input type="button" name="sesion" value="Cerrar Sesión" id="boton" 
+			onmouseover="cambioColor1()" onmouseout="cambioColor2()">
+		</header>
+		<nav>
+			<img src="menu2.png" id="boton-menu" onclick="saleMenu()">
+			<label>BÚSQUEDA:</label><input type="search" id="buscar" onkeypress="enter()">			
+			<input type="button" value="Buscar" id="ok" onclick="buscando()">
+		</nav>
+		<div id="menu">
+			<ul id="menu-grande">
+				<li id="cajita1" onmouseover="colorear1()" onmouseout="colorear2()">
+					<a href="index.html" id="menu1" onmouseover="colorear1()" onmouseout="colorear2()">Inicio</a>
+					<img src="casita.png" class="iconos" id="icono1">
+					<img src="casita1.png" class="iconos" id="icono1-1">
+				</li>
+				<li id="cajita2" onmouseover="colorear3()" onmouseout="colorear4()">
+					<a href="calculadora.html" id="menu2" onmouseover="colorear3()" onmouseout="colorear4()">Calculadora</a>
+					<img src="calculadora.png" class="iconos" id="icono2">
+					<img src="calculadora1.png" class="iconos" id="icono2-1">
+				</li>
+				<li id="cajita3" onmouseover="colorear5()" onmouseout="colorear6()">
+					<a href="leads.html" id="menu3" onmouseover="colorear5()" onmouseout="colorear6()">Leads</a>
+					<img src="cesta.png" class="iconos" id="icono3">
+					<img src="cesta1.png" class="iconos" id="icono3-1">
+				</li>
+				<li id="cajita4" onmouseover="colorear7()" onmouseout="colorear8()">
+					<a href="publicidad.html" id="menu4" onmouseover="colorear7()" onmouseout="colorear8()">Publicidad</a>
+					<img src="anuncio.png" class="iconos" id="icono4">
+					<img src="anuncio1.png" class="iconos" id="icono4-1">
+				</li>
+			</ul>
+		</div>
+		<div id="menu-res">
+			<ul id="menu-res1">
+				<li id="cajita1-1" onmouseover="colorearMenuRes1()" onmouseout="colorearMenuRes2()">
+					<a href="index.html" id="menu1-1" onmouseover="colorearMenuRes1()" onmouseout="colorearMenuRes2()">Inicio</a>
+				</li>
+				<li id="cajita2-1" onmouseover="colorearMenuRes3()" onmouseout="colorearMenuRes4()">
+					<a href="calculadora.html" id="menu2-1" onmouseover="colorearMenuRes3()" 
+					onmouseout="colorearMenuRes4()">Calculadora</a>
+				</li>
+				<li id="cajita3-1" onmouseover="colorearMenuRes5()" onmouseout="colorearMenuRes6()">
+					<a href="leads.html" id="menu3-1" onmouseover="colorearMenuRes5()" 
+					onmouseout="colorearMenuRes6()">Leads</a>
+				</li>
+				<li id="cajita4-1" onmouseover="colorearMenuRes7()" onmouseout="colorearMenuRes8()">
+					<a href="publicidad.html" id="menu4-1" onmouseover="colorearMenuRes7()" 
+					onmouseout="colorearMenuRes8()">Publicidad</a>
+				</li>
+			</ul>
+		</div>
+		<div id="cuadrotitulo"><h1 id="titulo">Bienvenido a Leads<br>Tu página de anuncios de empresas, para encontrar el mejor producto al mejor precio</h1>
+			<input type="button" value="Entrar" id="pincha" onmouseover="cambioColor3()" onmouseout="cambioColor4()"
+			onclick="pinchar()">
+		</div>
+		<article onclick="quitaMenu()">
+			<h1 id="titulo1"></h1>
+			<div id="cuadro1" onmouseover="saleTienda1()" onmouseout="quitaTienda1()"><p id="tienda1">PCCOMPONENTES</p>
+				</div>
+			<div id="cuadro2" onmouseover="saleTienda2()" onmouseout="quitaTienda2()"><p id="tienda2">AMAZON</p>
+				</div>
+			<div id="cuadro3" onmouseover="saleTienda3()" onmouseout="quitaTienda3()"><p id="tienda3">EL CORTE INGLÉS</p>
+				</div>
+			<div id="cuadro4" onmouseover="saleTienda4()" onmouseout="quitaTienda4()"><p id="tienda4">MEDIA MARKT</p>
+				</div>
+			<div id="tutorial">
+			<p>En ésta página encontrarás las mejores ofertas y chollos de tus tiendas online favoritas como PCComponentes,
+			Amazon, El Corte Inglés y Media Markt. Pasando con el ratón o el dedo por cada caja de color, aparecerá el 
+			nombre de cada tienda, pudiendo entrar en cada una y ver sus productos al mejor precio, y comprarlos en el mismo
+			instante si lo necesitas. Recuerda que sólo actuamos como intermediarios, cualquier duda, reclamación o devolución del producto, tiene que arregarlo con la propia tienda, nosotros no nos hacemos cargo de ello.
+			Vuelve a la página y diviértete comprando en Leads, todo lo que necesitas está aquí. Bienvenido.</p>
+			<img src="equis.png" id="equis-tutor" onclick="saleTutorial()">
+			</div>
+			<input type="button" value="Tutorial" id="tutor" onclick="entraTutorial()"><br>
+		</article>
+	</div>
+
+	<script type="text/javascript" src="dinamico4.js"></script>
+
+</body>
+</html>

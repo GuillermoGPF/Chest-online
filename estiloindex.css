@@ -1,0 +1,365 @@
+
+
+
+
+@media only screen and (min-width: 1031px){
+
+	body{background-repeat: no-repeat;
+			background-size: cover;
+			background-attachment: fixed;}
+		
+		div{width: 1000px;
+			height: 1400px;
+			background-color: none;
+			margin: 0 auto;}
+
+		#boton{width: 60px;
+			height: 60px;
+			margin-left: 900px;
+			margin-top: 4px;
+			border: double 3px black;}
+
+		#cajita{width: 180px;
+			height: 45px;
+			background-color: black;
+			border: double 4px white;
+			display: block;
+			position: relative;
+			float: left;
+			left: 845px;
+			top: 20px;
+			visibility: hidden;}
+
+		#cajita p{text-align: center;
+			margin-top: 10px;
+			color: white;
+			text-decoration: none;
+			font-size: 14pt;}
+
+		#cuadro{width: 400px;
+			height: 64px;
+			background-color: white;
+			border: double 4px black;
+			position: relative;
+			display: none;
+			top: 80px;
+			left: -250px;}
+
+			.botonera{margin-left: 13px;
+				margin-top: 2px;}
+
+				#cajita1{width: 160px; 
+					height: 40px; 
+					background-color: black; 
+					border: double 3px white; 
+					position: relative; 
+					display: none; 
+					top: 80px;
+					left: -400px;}
+
+					#cajita1 p{font-family: century gothic; font-size: 15pt; color: white; text-decoration: none; margin-top: 3px;}
+
+				#cajita2{width: 80px; 
+					height: 40px; 
+					background-color: black; 
+					border: double 3px white; 
+					position: relative; 
+					display: none; 
+					top: 80px;
+					left: -330px;}
+
+					#cajita2 p{font-family: century gothic; font-size: 15pt; color: white; text-decoration: none; margin-top: 3px;}
+
+				#cajita3{width: 100px; 
+					height: 60px; 
+					background-color: black; 
+					border: double 3px white; 
+					position: relative; 
+					display: none; 
+					top: 80px;
+					left: -250px;}
+
+					#cajita3 p{font-family: century gothic; font-size: 15pt; color: white; text-decoration: none; margin-top: 3px;}
+
+
+				#cajita4{width: 100px; 
+					height: 60px; 
+					background-color: black; 
+					border: double 3px white; 
+					position: relative; 
+					display: none; 
+					top: 80px;
+					left: -180px;}
+
+					#cajita4 p{font-family: century gothic; font-size: 15pt; color: white; text-decoration: none; margin-top: 3px;}
+
+
+				#cajita5{width: 100px; 
+					height: 40px; 
+					background-color: black; 
+					border: double 3px white; 
+					position: relative; 
+					display: none; 
+					top: 80px;
+					left: -100px;}
+
+					#cajita5 p{font-family: century gothic; font-size: 15pt; color: white; text-decoration: none; margin-top: 3px;}
+
+
+		header{width: 1000px;
+			height: 100px;
+			background-image: url(logo.jpg);
+			position: static;
+			display: block;
+			float: left;
+			border-radius: 20px 20px 20px 20px;
+			box-shadow: 0 0 20px rgba(0,0,0,0.9);}
+
+		nav{width: 1000px;
+			height: 55px;
+			background-color: none;
+			position: static;
+			display: block;
+			float: left;
+			margin-bottom: 10px;}
+
+			ul{list-style-type: none; margin-left: -25px;}
+
+			nav ul li{width: 150px;
+				height: 45px;
+				margin-top: -5px;
+				background-color: rgba(0,163,232,0.7);
+				margin-left: 10px;
+				position: static;
+				display: block;
+				float: left;
+				text-align: center;
+				vertical-align: middle;}
+
+			nav a{text-decoration: none; color: white;}
+
+			nav li{text-decoration: none;
+				font-family: calibri;
+				color: white;
+				font-size: 14pt;}
+
+			li ul li{display: none;
+				float: left;
+				margin-left: -15px;
+				top: -13px;
+				position: relative;
+				border-top: solid 5px #004080;
+				padding-top: 10px;}
+
+			.posicionar{margin-top: 17px;}
+			#bajar{margin-top: 0px;}
+
+			li:hover ul li{display: block;}
+
+			nav p{text-decoration: none; color: white; margin-top: 10px; font-size: 18pt; font-weight: normal;}
+
+		article{width: 1000px;
+				height: 1200px;
+				background-color: rgba(255,255,255,0.3);
+				position: static;
+				display: block;
+				float: left;
+				border-radius: 20px 20px 20px 20px;
+				box-shadow: 0 0 20px rgba(0,0,0,0.9);}
+
+				section{width: 250px;
+						height: 250px;
+						background-color: none;
+						position: static;
+						display: block;
+						float: left;
+						margin: 20px;
+						margin-left: 50px;
+						border: double 4px lightgrey;}
+
+						#colegio{overflow: hidden;}
+
+						#chuches{overflow: hidden;}
+
+						#abogados{overflow: hidden;}
+
+						#galeria{overflow: hidden;}
+
+						#landing{overflow: hidden;}
+
+						#ejercicio{overflow: hidden;}
+
+						.ejercicios{width: 125px;
+									height: 125px;
+									background-color: none;
+									position: relative;
+									display: block;
+									float: left;
+									box-shadow: none;}
+
+						.ejerciciosjs{width: 123px;
+									height: 123px;
+									background-color: none;
+									position: relative;
+									display: block;
+									float: left;
+									box-shadow: none;}
+
+						#examen{overflow: hidden;}
+
+						#mensajero{overflow: hidden;}
+
+						#ejerjava{background-color: white;
+								overflow: hidden;}
+
+						#warhammer{overflow: hidden;}
+						
+						#examenjs{overflow: hidden;}
+
+						#proyectofinal{overflow: hidden;}
+
+
+										#uno{width: 250px;
+											height: 40px;
+											background-color: white;
+											opacity: 0.5;
+											margin-top: -20px;
+											transition: transform 2s;}
+
+										#uno p{font-size: 18pt;}
+
+										#colegio:hover #uno{transform: translateY(-125px);}
+
+										#dos{width: 250px;
+											height: 50px;
+											background-color: white;
+											opacity: 0.5;
+											margin-top: -20px;
+											transition: transform 2s;}
+
+										#dos p{font-size: 22pt;}
+
+										#chuches:hover #dos{transform: translateY(-55px);}
+
+										#tres{width: 250px;
+											height: 50px;
+											background-color: white;
+											opacity: 0.5;
+											margin-top: -30px;
+											transition: transform 2s;}
+
+										#tres p{font-size: 25pt;}
+
+										#abogados:hover #tres{transform: translateY(-60px);}
+
+										#cuatro{width: 250px;
+											height: 50px;
+											background-color: white;
+											opacity: 0.5;
+											margin-top: -20px;
+											transition: transform 2s;}
+
+										#cuatro p{font-size: 23pt;}
+
+										#galeria:hover #cuatro{transform: translateY(-65px);}
+
+										#cinco{width: 250px;
+											height: 50px;
+											background-color: white;
+											opacity: 0.5;
+											margin-top: -20px;
+											transition: transform 2s;}
+
+										#cinco p{font-size: 24pt;}
+
+										#landing:hover #cinco{transform: translateY(-65px);}
+
+										#seis{width: 250px;
+											height: 40px;
+											background-color: white;
+											opacity: 0.5;
+											margin-top: 240px;
+											transition: transform 2s;}
+
+										#seis p{font-size: 16pt;}
+
+										#ejercicio:hover #seis{transform: translateY(-140px);}
+
+										#siete{width: 250px;
+											height: 40px;
+											background-color: white;
+											opacity: 0.5;
+											margin-top: -20px;
+											transition: transform 2s;}
+
+										#siete p{font-size: 17pt;}
+
+										#examen:hover #siete{transform: translateY(-40px);}
+
+										#ocho{width: 250px;
+											height: 50px;
+											background-color: white;
+											opacity: 0.5;
+											margin-top: -30px;
+											transition: transform 2s;}
+
+										#ocho p{font-size: 25pt;}
+
+										#mensajero:hover #ocho{transform: translateY(-50px);}
+
+										#nueve{width: 250px;
+											height: 50px;
+											background-color: white;
+											opacity: 0.5;
+											margin-top: 255px;
+											transition: transform 2s;}
+
+										#nueve p{font-size: 18pt; margin-top: 10px;}
+
+										#ejerjava:hover #nueve{transform: translateY(-150px);}
+
+
+										#diez{width: 250px;
+											height: 50px;
+											background-color: white;
+											opacity: 0.5;
+											margin-top: -15px;
+											transition: transform 2s;}
+
+										#diez p{font-size: 18pt;}
+
+										#warhammer:hover #diez{transform: translateY(-55px);}
+
+
+										#once{width: 250px;
+											height: 50px;
+											background-color: white;
+											opacity: 0.5;
+											margin-top: -15px;
+											transition: transform 2s;}
+
+										#once p{font-size: 18pt;}
+
+										#examenjs:hover #once{transform: translateY(-60px);}
+
+
+										#doce{width: 250px;
+											height: 50px;
+											background-color: white;
+											opacity: 0.5;
+											margin-top: -15px;
+											transition: transform 2s;}
+
+										#doce p{font-size: 25pt;}
+
+										#proyectofinal:hover #doce{transform: translateY(-65px);}
+
+										p{font-family: century gothic;
+											font-weight: bolder;
+											color: black;
+											text-decoration: underline;
+											text-align: center;}
+
+								
+
+		}

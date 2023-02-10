@@ -1,0 +1,322 @@
+
+
+
+
+	@media (min-width: 831px) and (max-width: 930px){
+
+			#contenedor{width: 800px;
+				height: 1400px;
+				background-color: none;
+				margin: 0 auto;}
+
+				header{width: 800px;
+					height: 150px;
+					background-color: #00a2e8;
+					display: block;
+					position: static;
+					float: left;
+					top: 0px;}
+
+					header img{margin-left: 267px;}
+
+					header input{width: 150px; 
+								height: 50px; 
+								border-bottom: double 5px black;
+								border-left: double 5px black; 
+								border-top: double 5px grey; 
+								border-radius: 10px;
+								display: block;
+								position: relative;
+								bottom: 100px;
+								left: 600px;
+								background-color: #c3c3c3;
+								color: white;
+								font-family: century gothic;
+								font-size: 15pt;
+								font-weight: bolder;}
+
+				nav{width: 800px;
+					height: 50px;
+					background-color: #c3c3c3;
+					display: block;
+					position: static;
+					float: left;
+					top: 150px;}
+
+					nav img{display: none;}
+
+					label{font-size: 15pt; position: relative; top: 5px; left: 20px;}
+
+					#buscar{width: 500px; 
+					height: 30px; 
+					border-radius: 50px; 
+					margin-left: 30px;
+					position: relative;
+					top: 7px;
+					border: none; 
+					font-size: 18pt; 
+					text-align: center;
+					font-family: calibri;}
+
+					#ok{width: 80px; 
+						height: 40px; 
+						border-radius: 20px;
+						position: relative;
+						top: 7px;
+						background-color: black; 
+						border: double 5px white; 
+						color: white;
+						font-family: century gothic;
+						font-size: 12pt;}
+
+					#menu{visibility: hidden;}
+
+				#menu-res{width: 800px;
+					height: 50px;
+					background-color: #00a2e8;
+					display: block; 
+					position: static; float: left;}
+
+					#menu-res a{font-family: century gothic; 
+						font-size: 20pt; 
+						color: white; 
+						font-weight: bolder; 
+						text-decoration: none;}
+
+					#menu-res1{list-style-type: none; margin-left: -46px; margin-top: 7px; text-align: center;}
+
+					#cajita1-1{float: left; width: 190px; 
+						height: 35px; 
+						background-color: #c3c3c3; 
+						margin-left: 7px;}
+
+					#cajita2-1{float: left; width: 200px; 
+						height: 35px; 
+						background-color: #c3c3c3; 
+						margin-left: 7px;}
+
+					#cajita3-1{float: left; width: 190px; 
+						height: 35px; 
+						background-color: #c3c3c3; 
+						margin-left: 7px;}
+
+					#cajita4-1{float: left; width: 198px; 
+						height: 35px; 
+						background-color: #c3c3c3; 
+						margin-left: 7px;}
+
+
+				article{width: 800px;
+					height: 1100px;
+					background-color: white;
+					display: block;
+					position: static;
+					float: left;}
+
+					.logos{width: 150px;
+						height: 150px;
+						background-color: none;
+						position: static;
+						display: block;
+						margin-left: 160px;
+						border: none;
+						visibility: hidden;
+						float: left;}
+
+					.logotipo{display: none;}
+					.logosres{display: block;}
+
+					.corazon{margin-top: -170px; margin-left: 80px; visibility: hidden;}
+					.corazonroto{margin-top: -100px; margin-left: -180px; visibility: hidden;}
+
+					.cajas{width: 130px;
+						height: 30px;
+						background-color: #00a2e8;
+						border: double 4px #c3c3c3;
+						border-radius: 20px;
+						color: white;
+						font-family: century gothic;
+						font-size: 19pt;
+						text-align: center;
+						font-weight: bolder;
+						visibility: hidden;
+						position: relative;
+						margin-top: -110px;
+						margin-left: 10px;}
+
+					#cuadrotitulo{width: 800px; 
+						height: 950px; 
+						background-color: white;
+						position: absolute;
+						float: left; 
+						display: block;}
+
+					#pincha{position: static;
+						width: 200px;
+						height: 80px;
+						margin-top: 100px;
+						margin-left: 300px;
+						background-color: #c3c3c3;
+						border: double 5px black;
+						border-radius: 20px;
+						font-family: century gothic;
+						font-size: 40pt;
+						color: white;
+						font-weight: bolder;
+						cursor: pointer;}
+
+					h1{font-family: century gothic;
+						font-size: 36pt;
+						color: #00a2e8;
+						font-weight: bolder;
+						text-align: center;
+						margin-top: 200px;
+						position: static;}
+
+					h2{font-family: century gothic;
+						font-size: 40pt;
+						color: #00a2e8;
+						font-weight: bolder;
+						text-align: center;
+						top: 250px;
+						left: 450px;}
+
+					@keyframes aparece{
+						0%  {opacity: 0}
+						50% {opacity: 0}
+						100%{opacity: 1}}
+
+					#parrafo1{font-family: calibri;
+						font-size: 17pt;
+						color: grey;
+						text-align: justify;
+						margin-left: 40px;
+						margin-right: 40px;
+						margin-top: 50px;}
+
+
+					fieldset input{width: 350px; 
+							height: 40px; 
+							background-color: white; 
+							border: solid 3px #c3c3c3;
+							border-radius: 20px;
+							margin-left: 25px;
+							margin-top: 60px;}
+
+							.entrar{width: 100px; 
+								height: 40px; 
+								font-family: century gothic; 
+								font-size: 14pt;
+								font-weight: bolder;
+								background-color: #c3c3c3;
+								margin-top: 50px;
+								margin-left: 100px;}
+
+							.cancelar{width: 120px; 
+								height: 40px; 
+								font-family: century gothic; 
+								font-size: 14pt;
+								font-weight: bolder;
+								background-color: #c3c3c3;
+								margin-top: 50px;
+								margin-left: 20px;}
+
+					.login{width: 400px;
+						height: 450px;
+						background-color: rgba(255,255,255,0.7);
+						border: solid 4px #00a2e8;
+						position: relative;
+						margin: 0 auto;}
+
+					#empresa1,#empresa2,#empresa3,#empresa4,#empresa5,#empresa6,#empresa7,#empresa8,
+					#empresa9,#empresa10{font-family: century gothic; 
+						font-size: 18pt;
+						color: #00a2e8; 
+						text-decoration: underline;}
+
+					#empresa1{margin-left: 135px; margin-top: 20px;}
+					#empresa2{margin-left: 150px; margin-top: 20px;}
+					#empresa3{margin-left: 130px; margin-top: 20px;}
+					#empresa4{margin-left: 160px; margin-top: 20px;}
+					#empresa5{margin-left: 140px; margin-top: 20px;}
+					#empresa6{margin-left: 135px; margin-top: 20px;}
+					#empresa7{margin-left: 150px; margin-top: 20px;}
+					#empresa8{margin-left: 165px; margin-top: 20px;}
+					#empresa9{margin-left: 150px; margin-top: 20px;}
+					#empresa10{margin-left: 140px; margin-top: 20px;}
+
+						#login1{margin-top: 100px; margin-left: 25px;}
+						#login2{margin-top: 100px; margin-left: -305px;}
+						#login3{margin-top: -92px; margin-left: 25px;}
+						#login4{margin-top: -92px; margin-left: -305px;}
+						#login5{margin-top: -280px; margin-left: 25px;}
+						#login6{margin-top: -280px; margin-left: -305px;}
+						#login7{margin-top: -470px; margin-left: 25px;}
+						#login8{margin-top: -470px; margin-left: -305px;}
+						#login9{margin-top: -660px; margin-left: 25px;}
+						#login10{margin-top: -660px; margin-left: -305px;}
+
+
+						#login1,#login2,#login3,#login4,#login5,#login6,#login7,#login8,#login9,#login10{display: none;}
+
+					#cuadrotexto{width: 800px; 
+						height: 950px; 
+						background-color: white;
+						position: absolute;
+						float: left; 
+						display: none;
+						animation-name: aparece;
+						animation-fill-mode: forwards;
+						animation-duration: 1s;
+						animation-timing-function: ease;}
+
+					#continuar{width: 300px;
+						height: 80px;
+						margin-top: 50px;
+						margin-left: 250px;
+						background-color: #c3c3c3;
+						border: double 5px black;
+						border-radius: 20px;
+						font-family: century gothic;
+						font-size: 40pt;
+						color: white;
+						font-weight: bolder;
+						animation-name: aparece;
+						animation-fill-mode: forwards;
+						animation-duration: 10s;
+						animation-timing-function: ease;
+						cursor: pointer;}
+
+					#tutorial{width: 700px; 
+              				height: 400px; 
+              				background-color: white; 
+              				border: solid 4px #00a2e8; 
+              				display: block;
+              				position: fixed;
+              				margin-left: 50px;
+              				display: none;
+              				margin-top: -150px;}
+
+              				#tutorial p{font-family: calibri;
+              				font-size: 17pt;
+              				margin-left: 30px;
+              				margin-right: 30px;
+              				margin-top: 30px;}
+
+              				#equis-tutor{margin-left: 325px; margin-top: -35px; cursor: pointer;}
+
+              				#tutor{width: 180px; 
+								height: 50px; 
+								background-color: black; 
+								border: double 4px #c3c3c3; 
+								border-radius: 20px;
+								font-family: century gothic;
+								font-size: 24pt;
+								color: white;
+								font-weight: bolder;
+								margin-top: 0px;
+								margin-left: 310px; 
+								position: static;
+								visibility: hidden;}
+
+	}

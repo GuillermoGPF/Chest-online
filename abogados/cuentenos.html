@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cuentenos su caso</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+
+		h1{font-family: times new roman; 
+			font-size: 50pt; 
+			color: blue;
+			text-align: center; 
+			font-weight: lighter;
+			text-transform: uppercase;}
+
+		p{font-family: arial; font-size: 15pt;}
+
+		legend{font-family: arial;
+			color: black;
+			font-size: 12pt;}
+
+		fieldset{border: double 3px lightblue;
+			width: 300px;}
+
+		input{width: 200px;
+			border-radius: 30px;
+			background-color: lightblue;
+			position: static;
+			display: block;
+			/*float: right;*/}
+
+
+
+	</style>
+</head>
+<body>
+	<h1>Cuentenos su caso</h1>
+
+	<form action="" method="post" enctype="text/plain" name="formulario"></form>
+	<fieldset>
+		<legend>DATOS PERSONALES</legend>
+		<label for="nombre">Nombre: </label><input type="text" name="nombre"><br><br>
+		<label for="apellidos">Apellidos: </label><input type="text" name="apellidos"><br><br>
+		<label for="edad">Edad: </label><input type="number" name="edad" min="18" max="99" selected="18"><br><br>
+		<label for="direccion">Dirección: </label><input type="text" name="direccion"><br><br>
+
+
+	</fieldset>
+
+</body>
+</html>

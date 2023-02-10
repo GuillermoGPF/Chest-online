@@ -1,0 +1,13 @@
+Nombre de usuario: Guiller
+Contraseña: archer
+
+La cantidad de anuncios para introducir en la calculadora cuando te pregunta son:
+- Al mes de 0 a 10
+- Al año de 0 a 120
+
+Los descuentos que hay que introducir en en la pregunta de los cupones son:
+- prime: al mes es 1% y al año 25%
+- aws:	al mes es 2% y al año 30%
+- dropbox: al mes es 2% y al año 30%
+- netflix:  al mes son 10€ menos y al año 50€ menos
+- hbo:  al mes son 9€ menos y al año 60€ menos

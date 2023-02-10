@@ -1,0 +1,290 @@
+
+
+
+
+div{width: 1200px;
+height: 1240px;
+background-color: white;
+margin: 0 auto;}
+
+	header{width: 1200px;
+		height: 275px;
+		background-color: none;
+		position: relative;
+		display: block;
+		float: left;
+		overflow: hidden; 
+		border-bottom: solid 10px lightgrey;}
+
+		#logo{width: 400px;
+			height: 200px;
+			background-image: url(logo.jpg);
+			position: static;
+			display: block;
+			float: left;
+			margin: 35px;}
+
+		#fondo{width: 700px;
+			height: 275px;
+			background-image: url(foto.jpg);
+			position: static;
+			display: block;
+			float: right;}
+
+		#caja{width: 380px;
+			height: 150px;
+			background-image: url(autonomo.png);
+			background-repeat: no-repeat;
+			position: absolute;
+			left: -380px;
+			bottom: 0px;
+			display: block;
+			float: left;
+			animation-name: desplazar;
+			animation-duration: 2s;
+			animation-fill-mode: forwards;
+			animation-timing-function: ease;}
+
+			#furgo{animation-name: mover;
+				animation-duration: 4s;
+				margin-top: -25px;
+				margin-left: 0px;}
+
+			@keyframes desplazar{
+				from{left: -380px;}
+				to{left: 690px;}}
+
+		#texto{font-size: 30pt;
+			margin-left: 45px;
+			animation-name: mover;
+			animation-duration: 4s;
+			animation-fill-mode: forwards;
+			color: red;
+			font-size: 38pt;
+			font-weight: bolder;
+			margin-top: 30px;}
+
+			@keyframes mover{
+				0%   {opacity: 0;}
+				50%  {opacity: 0;}
+				100% {opacity: 1;}}
+
+	nav{width: 200px;
+		height: 390px;
+		background-color: none;
+		position: static;
+		display: block;
+		float: left;
+		border-bottom: solid 10px lightgrey;}
+
+		#menu{width: 180px;
+			height: 380px;
+			background-color: none;
+			position: static;
+			display: block;
+			float: left;
+			margin: 10px;}
+
+		h1{font-family: arial;
+			font-size: 17pt;
+			text-align: center;
+			font-weight: bolder;
+			color: grey;}
+
+		fieldset{border: double 4px lightgrey;
+			width: 400px;
+			height: 600px;
+			margin: 0 auto;
+			margin-top: 30px;}
+
+		label{font-family: arial;
+			text-align: center;
+			font-size: 12pt;
+			font-weight: bolder;
+			color: black;
+			margin-left: 60px;}
+
+		.formu{width: 300px;
+			height: 30px;
+			background-color: lightgrey;
+			border: none;
+			border-radius: 10px;
+			margin-left: 50px;
+			display: block;}
+
+		.formu2{width: 300px;
+			height: 20px;
+			background-color: lightgrey;
+			border: double 4px black;
+			border-radius: 10px;
+			float: right;}
+
+		#boton{width: 200px;
+			height: 40px;
+			background-color: black;
+			border: solid 4px white;
+			margin-left: 100px;
+			border-radius: 20px;
+			display: block;
+			font-weight: bolder;
+			font-size: 14pt;
+			color: white;}
+
+		#boton2{width: 200px;
+			height: 40px;
+			background-color: black;
+			border: solid 4px white;
+			margin-left: 100px;
+			border-radius: 20px;
+			display: block;
+			color: white;
+			font-weight: bolder}
+
+		nav a{font-size: 14pt;
+			font-weight: bolder;
+			color: white;
+			vertical-align: middle;
+			position: relative;
+			top: -7px;}
+
+		ul{list-style-type: none;}
+
+		li{margin-right: 10px;
+			margin-top: 10px;
+			width: 100px;
+			height: 42px;
+			background-color: lightblue;
+			border-radius: 8px;}
+
+		li:before{content: "-" ;
+		margin-right: 5px;
+		font-size: 30pt; 
+		font-weight: bolder;
+		color: white;}
+
+		li:hover {border-radius: 20px; background-color: #2e4591; transform: scale(1.2,1.2);}
+		li:hover a[href="#"]{color:red;}
+		li:hover a[href="index.html"]{color:red;}
+
+	article{width: 990px;
+		height: 800px;
+		background-color: none;
+		position: static;
+		display: block;
+		float: right;
+		border-left: solid 10px lightgrey;}
+
+		h1{font-size: 40pt;
+			font-family: arial;
+			text-align: center;}
+
+		article p{font-family: calibri;
+			font-size: 18pt;
+			text-align: justify;
+			padding: 20px;}
+
+		#calcular{width: 200px;
+			height: 200px;
+			background-color: none;
+			position: static;
+			display: block;
+			float: left;
+			margin-left: 100px;}
+
+		#formulario{width: 200px;
+			height: 200px;
+			background-color: none;
+			position: static;
+			display: block;
+			float: left;
+			margin-left: 100px;}
+
+		#descarga{width: 200px;
+			height: 200px;
+			background-color: none;
+			position: static;
+			display: block;
+			float: left;
+			margin-left: 100px;}
+
+			article section img{padding-left: 17px;}
+
+
+	aside{width: 200px;
+		height: 400px;
+		background-color: none;
+		position: static;
+		display: block;
+		float: left;}
+
+		#arriba{width: 200px;
+				height:300px;
+				position: static;}
+
+		#abajo{width: 200px;
+				height:100px;
+				background-color: #2e4591;
+				color: white;
+				font-size: 20pt;
+				text-align: center;
+				position: static;}
+
+	footer{width: 1200px;
+		height: 145px;
+		background-color: none;
+		position: static;
+		display: block;
+		float: left;
+		border-top: solid 10px lightgrey;}
+
+		#contacto{width: 400px;
+			height: 145px;
+			background-color: none;
+			position: static;
+			display: block;
+			float: left;}
+
+			#telefono{display: block;
+						float: left;
+						position: relative;
+						top: -20px;
+						left: 6px;}
+
+			#correo{display: block;
+						float: left;
+						position: relative;
+						top: 40px;
+						left:-170px;}
+
+			#telefono a{position: relative; 
+						top: -20px;
+						left: 20px;}
+
+			#correo a{position: relative; 
+						top: -20px;
+						left: 10px;}
+
+		#legal{width: 400px;
+			height: 145px;
+			background-color: none;
+			position: static;
+			display: block;
+			float: left;}
+
+			footer p{font-size: 20pt;
+			text-align: center;
+			font-weight: bold;
+			display: block;
+			text-align: center;}
+
+			a{text-decoration: none;}
+
+		#redes{width: 400px;
+			height: 125px;
+			background-color: none;
+			position: static;
+			display: block;
+			float: left;}
+
+			#redes img{margin-top: 10px; 
+				margin-left: 150px;}

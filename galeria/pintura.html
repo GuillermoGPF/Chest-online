@@ -1,0 +1,619 @@
+<!DOCTYPE html5>
+<html>
+<head>
+	<title>PINTURA</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		
+		#contenedor{
+
+			width: 1050px;
+			height: 800px;
+			background-color: white;
+			position: static;
+			display: block;
+			margin: 0 auto;
+		}
+
+			#encabezado{
+
+				width: 1050px;
+				height: 100px;
+				background-color: white;
+				position: static;
+				display: block;
+				float: left;
+
+			}
+
+				#logo{
+
+					width: 100px;
+					height: 100px;
+					background-image: url(logo.jpg);
+					background-size: cover;
+					position: static;
+					display: block;
+					float: left;
+
+				}
+
+				#titulo{
+
+					width: 600px;
+					height: 60px;
+					background-color: white;
+					display: block;
+					float: left;
+
+				}
+
+				#navegacion{
+
+					width: 600px;
+					height: 40px;
+					background-color: white;
+					position: static;
+					display: block;
+					float: left;
+
+				}
+
+			#contenido{
+
+				width: 1030px;
+				height: 680px;
+				background-color: white;
+				position: static;
+				display: block;
+				float: left;
+				margin-top: 10px;
+				margin-left: 10px;
+
+			}
+
+				#fotos{
+
+					width: 500px;
+					height: 500px;
+					background-color: white;
+					position: static;
+					display: block;
+					float: left;
+					margin: 10px;
+
+				}
+
+					#uno{
+
+						width: 160px;
+						height: 160px;
+						background-image: url(fotocuadro1.png);
+						background-size: cover;
+						position: static;
+						display: block;
+						float: left;
+						margin: 3px;
+
+					}
+
+					#grande1{width: 500px;
+						height: 500px;
+						background-color: none;
+						position: absolute;
+						visibility: hidden;}
+
+					#dos{
+
+						width: 160px;
+						height: 160px;
+						background-image: url(fotocuadro2.png);
+						background-size: cover;
+						position: static;
+						display: block;
+						float: left;
+						margin: 3px;
+
+					}
+
+					#grande2{width: 500px;
+						height: 500px;
+						background-color: none;
+						position: absolute;
+						visibility: hidden;}
+
+					#tres{
+
+						width: 160px;
+						height: 160px;
+						background-image: url(fotocuadro3.png);
+						background-size: cover;
+						position: static;
+						display: block;
+						float: left;
+						margin: 3px;
+
+					}
+
+					#grande3{width: 500px;
+						height: 500px;
+						background-color: none;
+						position: absolute;
+						visibility: hidden;}
+
+					#cuatro{
+
+						width: 160px;
+						height: 160px;
+						background-image: url(fotocuadro4.png);
+						background-size: cover;
+						position: static;
+						display: block;
+						float: left;
+						margin: 3px;
+
+					}
+
+					#grande4{width: 500px;
+						height: 500px;
+						background-color: none;
+						position: absolute;
+						visibility: hidden;}
+
+					#cinco{
+
+						width: 160px;
+						height: 160px;
+						background-image: url(fotocuadro5.png);
+						background-size: cover;
+						position: static;
+						display: block;
+						float: left;
+						margin: 3px;
+
+					}
+
+					#grande5{width: 500px;
+						height: 500px;
+						background-color: none;
+						position: absolute;
+						visibility: hidden;}
+
+					#seis{
+
+						width: 160px;
+						height: 160px;
+						background-image: url(fotocuadro6.png);
+						background-size: cover;
+						position: static;
+						display: block;
+						float: left;
+						margin: 3px;
+
+					}
+
+					#grande6{width: 500px;
+						height: 500px;
+						background-color: none;
+						position: absolute;
+						visibility: hidden;}
+
+					#siete{
+
+						width: 160px;
+						height: 160px;
+						background-image: url(fotocuadro7.png);
+						background-size: cover;
+						position: static;
+						display: block;
+						float: left;
+						margin: 3px;
+
+					}
+
+					#grande7{width: 500px;
+						height: 500px;
+						background-color: none;
+						position: absolute;
+						visibility: hidden;}
+
+					#ocho{
+
+						width: 160px;
+						height: 160px;
+						background-image: url(fotocuadro8.png);
+						background-size: cover;
+						position: static;
+						display: block;
+						float: left;
+						margin: 3px;
+
+					}
+
+					#grande8{width: 500px;
+						height: 500px;
+						background-color: none;
+						position: absolute;
+						visibility: hidden;}
+
+					#nueve{
+
+						width: 160px;
+						height: 160px;
+						background-image: url(fotocuadro9.png);
+						background-size: cover;
+						position: static;
+						display: block;
+						float: left;
+						margin: 3px;
+
+					}
+
+					#grande9{width: 500px;
+						height: 500px;
+						background-color: none;
+						position: absolute;
+						visibility: hidden;}
+
+
+				#descripcion{
+
+					width: 490px;
+					height: 500px;
+					background-color: white;
+					position: static;
+					display: block;
+					float: left;
+					margin: 10px;
+
+				}
+
+
+
+			h1{font-family: Mistral;
+				font-size: 38pt;
+				color: lightblue;
+				text-align: center;
+				text-transform: uppercase;
+				margin-top: 2px;}
+
+			ul{list-style-type: none;
+				padding: 0px;}
+			li{float: left;
+				margin-top: 0px;
+				margin-right: 10px;
+				border-right-style: solid;
+				border-width: 2px;
+				border-color: lightgrey;
+				padding-left: 2px;
+				padding-right: 9px; }
+
+			a{font-family: Kristen ITC;
+				font-size: 10pt;
+				color: lightblue;
+				text-align: center;
+				text-decoration: none;
+				text-transform: uppercase;}
+
+			p{font-family: calibri;
+				font-size: 13pt;
+				text-align: justify;
+				margin: 10px;}
+
+			#borde{border-right: none;}
+
+			a[href="#"]{background-color: green;}
+
+
+
+
+	</style>
+</head>
+<body id="general">
+	<div id="contenedor">
+		<header id="encabezado">
+			<section id="logo"><a href="index.html" id="logo"></a></section>
+			<section id="titulo"><h1>Galería de arte pinceles</h1></section>
+			<section id="navegacion">
+				<ul>
+					<li><a href="galeria.html">La Galería</a></li>
+					<li><a href="escultura.html">Escultura</a></li>
+					<li><a href="#">Pintura</a></li>
+					<li><a href="tienda.html">Tienda online</a></li>
+					<li id="borde"><a href="contactar.html">Contactar</a></li>
+				</ul>
+			</section>
+		</header>
+		<article id="contenido">
+			<section id="fotos">
+				<section id="uno" onclick="aumentar()"></section>
+					<div id="grande1"><img src="foto1.jpg" onclick="quitar()"></div>
+				<section id="dos" onclick="aumentar1()"></section>
+					<div id="grande2"><img src="foto2.jpg" onclick="quitar1()"></div>
+				<section id="tres" onclick="aumentar2()"></section>
+					<div id="grande3"><img src="foto3.jpg" onclick="quitar2()"></div>
+				<section id="cuatro" onclick="aumentar3()"></section>
+					<div id="grande4"><img src="foto4.jpg" onclick="quitar3()"></div>
+				<section id="cinco" onclick="aumentar4()"></section>
+					<div id="grande5"><img src="foto5.jpg" onclick="quitar4()"></div>
+				<section id="seis" onclick="aumentar5()"></section>
+					<div id="grande6"><img src="foto6.jpg" onclick="quitar5()"></div>
+				<section id="siete" onclick="aumentar6()"></section>
+					<div id="grande7"><img src="foto7.jpg" onclick="quitar6()"></div>
+				<section id="ocho" onclick="aumentar7()"></section>
+					<div id="grande8"><img src="foto8.jpg" onclick="quitar7()"></div>
+				<section id="nueve" onclick="aumentar8()"></section>
+					<div id="grande9"><img src="foto9.jpg" onclick="quitar8()"></div>
+			</section>
+			<section id="descripcion">
+				
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</p>
+
+			</section>
+		</article>
+	</div>
+
+	<script type="text/javascript">
+		
+		function aumentar(){
+
+			document.getElementById("grande1").style.visibility="visible";
+			document.getElementById("general").style.backgroundColor="rgba(1,1,1,1)";
+			document.getElementById("contenedor").style.backgroundColor="rgba(1,1,1,1)";
+			document.getElementById("encabezado").style.backgroundColor="rgba(1,1,1,1)";
+			document.getElementById("logo").style.backgroundColor="rgba(1,1,1,1)";
+			document.getElementById("titulo").style.backgroundColor="rgba(1,1,1,1)";
+			document.getElementById("navegacion").style.backgroundColor="rgba(1,1,1,1)";
+			document.getElementById("contenido").style.backgroundColor="rgba(1,1,1,1)";
+			document.getElementById("descripcion").style.backgroundColor="rgba(1,1,1,1)";
+		}
+
+		function quitar(){
+
+			document.getElementById("grande1").style.visibility="hidden";
+			document.getElementById("general").style.backgroundColor="rgba(255,255,255,1)";
+			document.getElementById("contenedor").style.backgroundColor="rgba(255,255,255,1)";
+			document.getElementById("encabezado").style.backgroundColor="rgba(255,255,255,1)";
+			document.getElementById("logo").style.backgroundColor="rgba(255,255,255,1)";
+			document.getElementById("titulo").style.backgroundColor="rgba(255,255,255,1)";
+			document.getElementById("navegacion").style.backgroundColor="rgba(255,255,255,1)";
+			document.getElementById("contenido").style.backgroundColor="rgba(255,255,255,1)";
+			document.getElementById("descripcion").style.backgroundColor="rgba(255,255,255,1)";
+		}
+
+		function aumentar1(){
+
+			document.getElementById("grande2").style.visibility="visible";
+			document.getElementById("general").style.backgroundColor="rgba(1,1,1,1)";
+			document.getElementById("contenedor").style.backgroundColor="rgba(1,1,1,1)";
+			document.getElementById("encabezado").style.backgroundColor="rgba(1,1,1,1)";
+			document.getElementById("logo").style.backgroundColor="rgba(1,1,1,1)";
+			document.getElementById("titulo").style.backgroundColor="rgba(1,1,1,1)";
+			document.getElementById("navegacion").style.backgroundColor="rgba(1,1,1,1)";
+			document.getElementById("contenido").style.backgroundColor="rgba(1,1,1,1)";
+			document.getElementById("descripcion").style.backgroundColor="rgba(1,1,1,1)";
+		}
+
+		function quitar1(){
+
+			document.getElementById("grande2").style.visibility="hidden";
+			document.getElementById("general").style.backgroundColor="rgba(255,255,255,1)";
+			document.getElementById("contenedor").style.backgroundColor="rgba(255,255,255,1)";
+			document.getElementById("encabezado").style.backgroundColor="rgba(255,255,255,1)";
+			document.getElementById("logo").style.backgroundColor="rgba(255,255,255,1)";
+			document.getElementById("titulo").style.backgroundColor="rgba(255,255,255,1)";
+			document.getElementById("navegacion").style.backgroundColor="rgba(255,255,255,1)";
+			document.getElementById("contenido").style.backgroundColor="rgba(255,255,255,1)";
+			document.getElementById("descripcion").style.backgroundColor="rgba(255,255,255,1)";
+		}
+
+		function aumentar2(){
+
+			document.getElementById("grande3").style.visibility="visible";
+			document.getElementById("general").style.backgroundColor="rgba(1,1,1,1)";
+			document.getElementById("contenedor").style.backgroundColor="rgba(1,1,1,1)";
+			document.getElementById("encabezado").style.backgroundColor="rgba(1,1,1,1)";
+			document.getElementById("logo").style.backgroundColor="rgba(1,1,1,1)";
+			document.getElementById("titulo").style.backgroundColor="rgba(1,1,1,1)";
+			document.getElementById("navegacion").style.backgroundColor="rgba(1,1,1,1)";
+			document.getElementById("contenido").style.backgroundColor="rgba(1,1,1,1)";
+			document.getElementById("descripcion").style.backgroundColor="rgba(1,1,1,1)";
+		}
+
+		function quitar2(){
+
+			document.getElementById("grande3").style.visibility="hidden";
+			document.getElementById("general").style.backgroundColor="rgba(255,255,255,1)";
+			document.getElementById("contenedor").style.backgroundColor="rgba(255,255,255,1)";
+			document.getElementById("encabezado").style.backgroundColor="rgba(255,255,255,1)";
+			document.getElementById("logo").style.backgroundColor="rgba(255,255,255,1)";
+			document.getElementById("titulo").style.backgroundColor="rgba(255,255,255,1)";
+			document.getElementById("navegacion").style.backgroundColor="rgba(255,255,255,1)";
+			document.getElementById("contenido").style.backgroundColor="rgba(255,255,255,1)";
+			document.getElementById("descripcion").style.backgroundColor="rgba(255,255,255,1)";
+		}
+
+		function aumentar3(){
+
+			document.getElementById("grande4").style.visibility="visible";
+			document.getElementById("general").style.backgroundColor="rgba(1,1,1,1)";
+			document.getElementById("contenedor").style.backgroundColor="rgba(1,1,1,1)";
+			document.getElementById("encabezado").style.backgroundColor="rgba(1,1,1,1)";
+			document.getElementById("logo").style.backgroundColor="rgba(1,1,1,1)";
+			document.getElementById("titulo").style.backgroundColor="rgba(1,1,1,1)";
+			document.getElementById("navegacion").style.backgroundColor="rgba(1,1,1,1)";
+			document.getElementById("contenido").style.backgroundColor="rgba(1,1,1,1)";
+			document.getElementById("descripcion").style.backgroundColor="rgba(1,1,1,1)";
+		}
+
+		function quitar3(){
+
+			document.getElementById("grande4").style.visibility="hidden";
+			document.getElementById("general").style.backgroundColor="rgba(255,255,255,1)";
+			document.getElementById("contenedor").style.backgroundColor="rgba(255,255,255,1)";
+			document.getElementById("encabezado").style.backgroundColor="rgba(255,255,255,1)";
+			document.getElementById("logo").style.backgroundColor="rgba(255,255,255,1)";
+			document.getElementById("titulo").style.backgroundColor="rgba(255,255,255,1)";
+			document.getElementById("navegacion").style.backgroundColor="rgba(255,255,255,1)";
+			document.getElementById("contenido").style.backgroundColor="rgba(255,255,255,1)";
+			document.getElementById("descripcion").style.backgroundColor="rgba(255,255,255,1)";
+		}
+
+		function aumentar4(){
+
+			document.getElementById("grande5").style.visibility="visible";
+			document.getElementById("general").style.backgroundColor="rgba(1,1,1,1)";
+			document.getElementById("contenedor").style.backgroundColor="rgba(1,1,1,1)";
+			document.getElementById("encabezado").style.backgroundColor="rgba(1,1,1,1)";
+			document.getElementById("logo").style.backgroundColor="rgba(1,1,1,1)";
+			document.getElementById("titulo").style.backgroundColor="rgba(1,1,1,1)";
+			document.getElementById("navegacion").style.backgroundColor="rgba(1,1,1,1)";
+			document.getElementById("contenido").style.backgroundColor="rgba(1,1,1,1)";
+			document.getElementById("descripcion").style.backgroundColor="rgba(1,1,1,1)";
+		}
+
+		function quitar4(){
+
+			document.getElementById("grande5").style.visibility="hidden";
+			document.getElementById("general").style.backgroundColor="rgba(255,255,255,1)";
+			document.getElementById("contenedor").style.backgroundColor="rgba(255,255,255,1)";
+			document.getElementById("encabezado").style.backgroundColor="rgba(255,255,255,1)";
+			document.getElementById("logo").style.backgroundColor="rgba(255,255,255,1)";
+			document.getElementById("titulo").style.backgroundColor="rgba(255,255,255,1)";
+			document.getElementById("navegacion").style.backgroundColor="rgba(255,255,255,1)";
+			document.getElementById("contenido").style.backgroundColor="rgba(255,255,255,1)";
+			document.getElementById("descripcion").style.backgroundColor="rgba(255,255,255,1)";
+		}
+
+		function aumentar5(){
+
+			document.getElementById("grande6").style.visibility="visible";
+			document.getElementById("general").style.backgroundColor="rgba(1,1,1,1)";
+			document.getElementById("contenedor").style.backgroundColor="rgba(1,1,1,1)";
+			document.getElementById("encabezado").style.backgroundColor="rgba(1,1,1,1)";
+			document.getElementById("logo").style.backgroundColor="rgba(1,1,1,1)";
+			document.getElementById("titulo").style.backgroundColor="rgba(1,1,1,1)";
+			document.getElementById("navegacion").style.backgroundColor="rgba(1,1,1,1)";
+			document.getElementById("contenido").style.backgroundColor="rgba(1,1,1,1)";
+			document.getElementById("descripcion").style.backgroundColor="rgba(1,1,1,1)";
+		}
+
+		function quitar5(){
+
+			document.getElementById("grande6").style.visibility="hidden";
+			document.getElementById("general").style.backgroundColor="rgba(255,255,255,1)";
+			document.getElementById("contenedor").style.backgroundColor="rgba(255,255,255,1)";
+			document.getElementById("encabezado").style.backgroundColor="rgba(255,255,255,1)";
+			document.getElementById("logo").style.backgroundColor="rgba(255,255,255,1)";
+			document.getElementById("titulo").style.backgroundColor="rgba(255,255,255,1)";
+			document.getElementById("navegacion").style.backgroundColor="rgba(255,255,255,1)";
+			document.getElementById("contenido").style.backgroundColor="rgba(255,255,255,1)";
+			document.getElementById("descripcion").style.backgroundColor="rgba(255,255,255,1)";
+		}
+
+		function aumentar6(){
+
+			document.getElementById("grande7").style.visibility="visible";
+			document.getElementById("general").style.backgroundColor="rgba(1,1,1,1)";
+			document.getElementById("contenedor").style.backgroundColor="rgba(1,1,1,1)";
+			document.getElementById("encabezado").style.backgroundColor="rgba(1,1,1,1)";
+			document.getElementById("logo").style.backgroundColor="rgba(1,1,1,1)";
+			document.getElementById("titulo").style.backgroundColor="rgba(1,1,1,1)";
+			document.getElementById("navegacion").style.backgroundColor="rgba(1,1,1,1)";
+			document.getElementById("contenido").style.backgroundColor="rgba(1,1,1,1)";
+			document.getElementById("descripcion").style.backgroundColor="rgba(1,1,1,1)";
+		}
+
+		function quitar6(){
+
+			document.getElementById("grande7").style.visibility="hidden";
+			document.getElementById("general").style.backgroundColor="rgba(255,255,255,1)";
+			document.getElementById("contenedor").style.backgroundColor="rgba(255,255,255,1)";
+			document.getElementById("encabezado").style.backgroundColor="rgba(255,255,255,1)";
+			document.getElementById("logo").style.backgroundColor="rgba(255,255,255,1)";
+			document.getElementById("titulo").style.backgroundColor="rgba(255,255,255,1)";
+			document.getElementById("navegacion").style.backgroundColor="rgba(255,255,255,1)";
+			document.getElementById("contenido").style.backgroundColor="rgba(255,255,255,1)";
+			document.getElementById("descripcion").style.backgroundColor="rgba(255,255,255,1)";
+		}
+
+		function aumentar7(){
+
+			document.getElementById("grande8").style.visibility="visible";
+			document.getElementById("general").style.backgroundColor="rgba(1,1,1,1)";
+			document.getElementById("contenedor").style.backgroundColor="rgba(1,1,1,1)";
+			document.getElementById("encabezado").style.backgroundColor="rgba(1,1,1,1)";
+			document.getElementById("logo").style.backgroundColor="rgba(1,1,1,1)";
+			document.getElementById("titulo").style.backgroundColor="rgba(1,1,1,1)";
+			document.getElementById("navegacion").style.backgroundColor="rgba(1,1,1,1)";
+			document.getElementById("contenido").style.backgroundColor="rgba(1,1,1,1)";
+			document.getElementById("descripcion").style.backgroundColor="rgba(1,1,1,1)";
+		}
+
+		function quitar7(){
+
+			document.getElementById("grande8").style.visibility="hidden";
+			document.getElementById("general").style.backgroundColor="rgba(255,255,255,1)";
+			document.getElementById("contenedor").style.backgroundColor="rgba(255,255,255,1)";
+			document.getElementById("encabezado").style.backgroundColor="rgba(255,255,255,1)";
+			document.getElementById("logo").style.backgroundColor="rgba(255,255,255,1)";
+			document.getElementById("titulo").style.backgroundColor="rgba(255,255,255,1)";
+			document.getElementById("navegacion").style.backgroundColor="rgba(255,255,255,1)";
+			document.getElementById("contenido").style.backgroundColor="rgba(255,255,255,1)";
+			document.getElementById("descripcion").style.backgroundColor="rgba(255,255,255,1)";
+		}
+
+		function aumentar8(){
+
+			document.getElementById("grande9").style.visibility="visible";
+			document.getElementById("general").style.backgroundColor="rgba(1,1,1,1)";
+			document.getElementById("contenedor").style.backgroundColor="rgba(1,1,1,1)";
+			document.getElementById("encabezado").style.backgroundColor="rgba(1,1,1,1)";
+			document.getElementById("logo").style.backgroundColor="rgba(1,1,1,1)";
+			document.getElementById("titulo").style.backgroundColor="rgba(1,1,1,1)";
+			document.getElementById("navegacion").style.backgroundColor="rgba(1,1,1,1)";
+			document.getElementById("contenido").style.backgroundColor="rgba(1,1,1,1)";
+			document.getElementById("descripcion").style.backgroundColor="rgba(1,1,1,1)";
+		}
+
+		function quitar8(){
+
+			document.getElementById("grande9").style.visibility="hidden";
+			document.getElementById("general").style.backgroundColor="rgba(255,255,255,1)";
+			document.getElementById("contenedor").style.backgroundColor="rgba(255,255,255,1)";
+			document.getElementById("encabezado").style.backgroundColor="rgba(255,255,255,1)";
+			document.getElementById("logo").style.backgroundColor="rgba(255,255,255,1)";
+			document.getElementById("titulo").style.backgroundColor="rgba(255,255,255,1)";
+			document.getElementById("navegacion").style.backgroundColor="rgba(255,255,255,1)";
+			document.getElementById("contenido").style.backgroundColor="rgba(255,255,255,1)";
+			document.getElementById("descripcion").style.backgroundColor="rgba(255,255,255,1)";
+		}
+
+	</script>
+
+</body>
+</html>

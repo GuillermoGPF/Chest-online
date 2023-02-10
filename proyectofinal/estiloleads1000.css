@@ -1,0 +1,212 @@
+
+
+
+
+	@media(min-width: 1031px) and (max-width: 1130px){
+
+		#contenedor{width: 1000px;
+				height: 2100px;
+				background-color: none;
+				margin: 0 auto;}
+
+			header{width: 1000px;
+					height: 150px;
+					background-color: #004080;
+					display: block;
+					position: static;
+					float: left;
+					top: 0px;}
+
+					header img{margin-left: 350px;}
+
+					header input{width: 200px; 
+								height: 50px; 
+								border-bottom: double 5px black;
+								border-left: double 5px black; 
+								border-top: double 5px grey; 
+								border-radius: 10px;
+								display: block;
+								position: relative;
+								bottom: 100px;
+								left: 780px;
+								background-color: #c3c3c3;
+								color: white;
+								font-family: century gothic;
+								font-size: 20pt;
+								font-weight: bolder;
+								cursor: pointer;}
+
+				nav{width: 1000px;
+					height: 50px;
+					background-color: #c3c3c3;
+					display: block;
+					position: static;
+					float: left;
+					top: 150px;}
+
+					nav img{margin-left: 20px; cursor: pointer;}
+
+					label{font-size: 20pt; position: relative; bottom: 30px; left: 50px;}
+
+					#buscar{width: 420px; 
+					height: 30px; 
+					border-radius: 50px; 
+					margin-left: 80px;
+					position: relative;
+					top: -17px;
+					border: none; 
+					font-size: 18pt; 
+					text-align: center;
+					font-family: calibri;}
+
+					#ok{width: 100px; 
+						height: 40px; 
+						border-radius: 20px;
+						position: relative;
+						top: -20px;
+						background-color: black; 
+						border: double 5px white; 
+						color: white;
+						font-family: century gothic;
+						font-size: 15pt;
+						cursor: pointer;}
+
+					#menu-res{display: none;}
+
+					#menu{width: 350px;
+						height: 290px;
+						background-color: none;
+						position: absolute;
+						margin-top: 200px;
+						margin-left: 0px;
+						display: none;}
+
+						#menu-grande{list-style-type: none; margin-left: -40px; margin-top: 0px; text-align: justify;}
+						#cajita1 a{font-family: century gothic; font-size: 30pt; text-decoration: none;}
+						#cajita2 a{font-family: century gothic; font-size: 30pt; text-decoration: none;}
+						#cajita3 a{font-family: century gothic; font-size: 30pt; text-decoration: none;}
+						#cajita4 a{font-family: century gothic; font-size: 30pt; text-decoration: none;}
+
+						#cajita1{width: 350px; 
+							height: 70px; 
+							background-color: #c3c3c3;
+							border-top: solid 2px #e2e2e2;
+							border-bottom: solid 2px #e2e2e2;
+							border-left: solid 2px #e2e2e2;
+							float: left;
+							position: static;}
+
+						#cajita2{width: 350px; 
+							height: 70px; 
+							background-color: #c3c3c3; 
+							border-bottom: solid 2px #e2e2e2;
+							border-left: solid 2px #e2e2e2;
+							float: left;
+							position: static;}
+
+						#cajita3{width: 350px; 
+							height: 70px; 
+							background-color: #c3c3c3; 
+							border-bottom: solid 2px #e2e2e2;
+							border-left: solid 2px #e2e2e2;
+							float: left;
+							position: static;}
+
+						#cajita4{width: 350px; 
+							height: 70px; 
+							background-color: #c3c3c3; 
+							border-bottom: solid 2px #e2e2e2;
+							border-left: solid 2px #e2e2e2;
+							float: left;
+							position: static;}
+
+							.iconos{float: left;}
+							#icono1,#icono2,#icono3,#icono4{display: block;}
+							#icono1-1,#icono2-1,#icono3-1,#icono4-1{display: none;}
+
+
+				article{width: 1000px;
+					height: 1850px;
+					background-color: white;
+					display: block;
+					position: static;
+					float: left;}
+
+					#cuadro1{width: 1000px; height: 300px; background-color: orange; margin-top: 100px; visibility: hidden;}
+					#cuadro2{width: 1000px; height: 300px; background-color: yellow; margin-top: 100px; visibility: hidden;}
+					#cuadro3{width: 1000px; height: 300px; background-color: green; margin-top: 100px; visibility: hidden;}
+					#cuadro4{width: 1000px; height: 300px; background-color: red; margin-top: 100px; visibility: hidden;}
+
+					p{font-family: century gothic; 
+						font-size: 60pt; 
+						font-weight: bolder; 
+						color: #004080; 
+						text-align: center; 
+						padding-top: 100px;}
+
+					h1{font-family: century gothic;
+						font-size: 50pt;
+						font-weight: bolder;
+						color: #004080;
+						text-align: center;
+						margin-top: 150px;
+						margin-left: 100px;
+						margin-right: 100px;}
+
+					#cuadrotitulo{width: 1000px; 
+						height: 879px; 
+						background-color: white;
+						position: absolute;
+						float: left; 
+						display: block;
+						margin-top: 13px;}
+
+					#pincha{position: static;
+						width: 300px;
+						height: 100px;
+						margin-top: 50px;
+						margin-left: 350px;
+						background-color: #c3c3c3;
+						border: double 5px black;
+						border-radius: 20px;
+						font-family: century gothic;
+						font-size: 50pt;
+						color: white;
+						font-weight: bolder;
+						cursor: pointer;}
+
+					#tienda1,#tienda2,#tienda3,#tienda4{display: none;}
+
+					#tutor{width: 300px; 
+						height: 80px; 
+						background-color: #004080;
+						border: double 5px #c3c3c3;
+						top: 500px;
+						left: 700px;
+						position: fixed;
+						cursor: pointer;
+						visibility: hidden;
+						font-family: century gothic;
+						font-size: 40pt;
+						color: white;}
+
+					#tutorial{width: 600px; 
+						height: 400px; 
+						background-color: white; 
+						border: solid 4px #004080;
+						position: fixed;
+						top: 200px;
+						left: 50px;
+						display: none;}
+
+					#equis-tutor{margin-left: 275px; margin-top: -10px; cursor: pointer;}
+
+					#tutorial p{font-family: calibri; 
+						font-size: 15pt;
+						text-align: justify;
+						color: #004080; 
+						margin-top: -80px;
+						margin-left: 80px;
+						margin-right: 80px;}
+
+	}

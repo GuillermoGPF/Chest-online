@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Página discapacidad</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		
+		div{width: 1200px;
+			height: 1000px;
+			background-color: rgba(155,155,155,0.1);
+			margin: 0 auto;}
+
+		header{width: 1200px;
+			height: 300px;
+			background-image: url(imagen2.png);
+			position: static;
+			display: block;
+			float: left;}
+
+				#logo{width: 60px;
+					height: 53px;
+					margin-left: 1100px;
+					border: double 4px grey;
+					background-color: white;}
+
+				#cuadro{width: 580px;
+					height: 100px;
+					position: relative;
+					background-color: white;
+					margin-left: 525px;
+					margin-top: -15px;
+					border: solid 4px yellow;
+					visibility: hidden;}
+
+				#cuadro input{width: 62px;
+					height: 30px;
+					margin-left: 6px;
+					margin-top: 12px;
+					background-color: darkblue;
+					color: white;
+					font-weight: bolder;
+					font-family: calibri;
+					font-size: 12pt;
+					border-radius: 20px;
+					border: solid 2px lightgrey;}
+
+				#cuadro p{margin-top: -8px;
+					margin-left: 60px; 
+					font-size: 18pt;}
+
+		nav{width: 1200px;
+			height: 50px;
+			background-color: darkblue;
+			position: static;
+			display: block;
+			float: left;}
+
+			a{font-family: arial;
+				font-size: 12pt;
+				color: white;
+				float: left;
+				position: static;
+				display: block;
+				text-decoration: none;
+				margin-left: 100px;
+				margin-top: 20px;}
+
+			ul{list-style-type: none;}
+
+			ul li ul{display: none;}
+
+
+		article{width: 1200px;
+			height: 600px;
+			background-color: rgba(255,255,255,0.5);
+			position: static;
+			display: block;
+			float: left;}
+
+			section{width: 590px;
+				height: 290px;
+				background-color: none;
+				position: static;
+				display: block;
+				float: left;
+				margin-left: 5px;
+				margin-top: 5px;}
+
+		aside{width: 1200px;
+			height: 250px;
+			background-image: url(banner.gif);
+			position: absolute;
+			display: block;
+			float: left;
+			top:600px;
+			animation-name: aparece;
+			animation-duration: 12s;
+			animation-fill-mode: forwards;
+			animation-timing-function: ease;}
+
+			#cerrar{width: 50px;
+				height: 50px;
+				margin-left: 1150px;}
+
+			@keyframes aparece{
+				0%  {opacity: 0}
+				50% {opacity: 0}
+				100%{opacity: 1}}
+
+		footer{width: 1200px;
+			height: 50px;
+			background-color: rgba(0,170,228,0.5);
+			position: static;
+			display: block;
+			float: left;}
+
+		#cookies input{position: relative;
+			left: 480px;
+			height: 30px;
+			margin-left: 20px;
+			margin-top: -12px;}
+
+			#cookies{width: 1200px;
+				height: 250px;
+				background-color: rgba(1,1,1,0.5);
+				position: fixed;
+				display: block;
+				float: left;
+				bottom: 0px;}
+
+				#cookies p{font-family: arial;
+					font-size: 14pt;
+					color: white;
+					text-align: justify;
+					margin-top: 20px;
+					margin-left: 50px;
+					margin-right: 50px;}
+
+			#sonido1{visibility: hidden;}
+			#sonido2{visibility: hidden;}
+			#sonido3{visibility: hidden;}
+			#sonido4{visibility: hidden;}
+
+	</style>
+</head>
+<body background="paisaje.jpg">
+
+	<div id="todo">
+		<header><img src="logo.png" id="logo">
+			<div id="cuadro">
+				<input type="button" value="A+" id="aumentar">
+				<input type="button" value="A" id="mantener">
+				<input type="button" value="A-" id="disminuir">
+				<input type="button" value="Color" id="color">
+				<input type="button" value="B/N" id="grises">
+				<input type="button" value="Sonido" id="oir">
+				<input type="button" value="Sin img" id="noimg">
+				<input type="button" value="Ayuda" id="ayudar">
+				<br><br><hr width="480" size="3">
+				<p id="mensaje"></p>
+			</div>
+		</header>
+		<nav>
+			<a href="">Sobre nosotros</a>
+			<a href="">Servicios</a>
+			<a href="">Galería de fotos</a>
+			<a href="">Tienda online</a>
+			<a href="">Contactar</a>
+		</nav>
+		<article>
+			<section>
+			<img src="foto1.jpg" align="left" hspace="40" id="foto1">
+			<p align="right" class="text"><img src="sound1.png" id="sonido1">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</section>
+			<section>
+			<img src="foto2.jpg" align="left" hspace="40" id="foto2">
+			<p align="right" class="text"><img src="sound1.png" id="sonido2">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></section>
+			<section>
+			<img src="foto3.png" align="right" hspace="40" id="foto3">
+			<p align="left" class="text"><img src="sound1.png" id="sonido3">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></section>
+			<section>
+			<img src="foto4.jpg" align="right" hspace="40" id="foto4">
+			<p align="left" class="text"><img src="sound1.png" id="sonido4">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></section>
+		</article>
+		<aside id="ads"><section id="cerrar"><img src="equis.png"></section></aside>
+		<footer>
+			<a href="">Aviso Legal</a>
+			<a href="">Política de Privacidad</a>
+			<a href="">Política de Cookies</a>
+			<a href="">Redes Sociales</a>
+			<a href="">Idiomas</a>
+			</footer>
+		<div id="cookies">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<input type="button" value="Aceptar" id="continuar">
+			<input type="button" value="Cancelar">
+		</div>
+	</div>
+
+	<script type="text/javascript" src="javas.js"></script>
+
+</body>
+</html>

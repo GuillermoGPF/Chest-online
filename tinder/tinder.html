@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		
+		div{width: 300px;
+			height: 600px;
+			margin: 0 auto;}
+
+		input{margin-left: 10px;
+			margin-top: 60px;
+			width: 200px;
+			height: 50px;
+			border-radius: 20px;
+			border: none;
+			background-color: lightblue;
+			color: white;
+			font-size: 14pt;}
+
+		fieldset{width: 220px;
+			height: 550px;
+			border: double 5px grey;
+			position: static;
+			display: block;
+			float: left;}
+
+	</style>
+</head>
+<body>
+
+	<script type="text/javascript">
+		
+		let gender;
+		let hair;
+		let age;
+
+		function genero(){
+
+			gender = prompt("Que prefiere ¿Chicos o chicas?");
+
+		}
+
+		function pelo(){
+
+			hair = prompt("Que prefiere ¿Rubios/as o morenos/as?");
+
+		}
+
+		function edad(){
+
+			age = prompt("Que prefiere ¿Jóvenes o mayores?");
+
+		}
+
+		function resultado(){
+
+			if(gender == false){ 
+
+				alert("Necesitamos que elija un género antes de ofrecerle resultados");
+
+			}
+			else if(hair == false){ 
+
+				alert("Necesitamos que elija un tipo de pelo antes de ofrecerle resultados");
+
+			}
+			else if(age == false){ 
+
+				alert("Necesitamos que elija un rango de edad antes de ofrecerle resultados");
+
+			}
+			else{
+
+				if(gender == "chicos" && hair == "rubios" && age == "jovenes"){
+
+					document.write('<img src="MRJ.jpg">');
+
+				}
+				else if(gender == "chicos" && hair == "rubios" && age == "mayores"){
+
+					document.write('<img src="MRV.jpg">');
+
+				}
+				else if(gender == "chicos" && hair == "morenos" && age == "jovenes"){
+
+					document.write('<img src="MMJ.jpg">');
+
+				}
+				else if(gender == "chicos" && hair == "morenos" && age == "mayores"){
+
+					document.write('<img src="MMV.jpg">');
+
+				}
+				else if(gender == "chicas" && hair == "rubias" && age == "jovenes"){
+
+					document.write('<img src="FRJ.jpg">');
+
+				}
+				else if(gender == "chicas" && hair == "rubias" && age == "mayores"){
+
+					document.write('<img src="FRV.jpg">');
+
+				}
+				else if(gender == "chicas" && hair == "morenas" && age == "jovenes"){
+
+					document.write('<img src="FMJ.jpg">');
+
+				}
+				else if(gender == "chicas" && hair == "morenas" && age == "mayores"){
+
+					document.write('<img src="FMV.jpg">');
+
+				}
+				else{
+
+					alert("No hemos entendido, por favor, elija la primera opción");
+
+				}
+
+			}
+
+		}
+
+
+	</script>
+
+	<div>
+	<fieldset>
+		<legend>TINDER</legend>	
+		<input type="button" value="Género" onclick="genero();"><br><br>
+		<input type="button" value="Color de pelo" onclick="pelo();"><br><br>
+		<input type="button" value="Edad" onclick="edad();"><br><br>
+		<input type="button" value="Mostrar resultados" onclick="resultado();">
+	</fieldset>
+	</div>
+
+</body>
+</html>
